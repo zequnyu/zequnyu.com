@@ -1,0 +1,29 @@
+{
+  "name": "zequnyu.com",
+  "version": "1.0.0",
+  "description": "My personal website built with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zequnyu/zequnyu.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zequnyu/zequnyu.com/issues"
+  },
+  "homepage": "https://github.com/zequnyu/zequnyu.com#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "next-images": "^1.0.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.2"
+  }
+}
