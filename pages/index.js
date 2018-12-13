@@ -1,5 +1,9 @@
-import Header from '../components/Header.js'
+import Layout from '../components/Layout.js'
+import styled from 'styled-components'
 
+const Content = styled.div`
+    background-color: aliceblue;
+`;
 
 class Index extends React.Component {
     constructor(props) {
@@ -7,10 +11,11 @@ class Index extends React.Component {
     }
     render() {
         return (
-            <div>
-                <Header />
-                <p>Hello Next.js</p>
-            </div>
+            <Layout>
+                <Content>
+                    <p>Hello Next.js</p>
+                </Content>
+            </Layout>
         );
     }
 }
