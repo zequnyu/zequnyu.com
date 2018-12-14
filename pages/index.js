@@ -6,7 +6,7 @@ import uscImg from '../static/usc.png'
 
 const Content = styled.div`
     max-width: 960px;
-    min-width: 600px;
+    min-width: 700px;
     margin: 0 auto;
     height: 600px;
     
@@ -78,7 +78,7 @@ const HiText = styled.h1`
     color: #333333;
     
     #darkred {
-        color: #8e1a1d;
+        color: #8e191c;
     }
 `;
 

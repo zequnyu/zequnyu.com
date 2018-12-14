@@ -25,7 +25,6 @@ const TextDiv = styled.div`
     font-family: 'Open Sans', sans-serif;
     color: #666666;
     
-    
     width: 100%;
     
     display: flex;
