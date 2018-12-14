@@ -160,16 +160,16 @@ class Index extends React.Component {
                                 <USCLogo src={uscImg} alt="USCLogo" />
                             </StatusSpan>
                             <SocialIconDiv>
-                                <SocialLink href={`http://facebook.com/anthonyyu.11`}>
+                                <SocialLink href={`https://facebook.com/anthonyyu.11`}>
                                     <i className="fab fa-facebook-square" />
                                 </SocialLink>
-                                <SocialLink href={`http://github.com/zequnyu`}>
+                                <SocialLink href={`https://github.com/zequnyu`}>
                                     <i className="fab fa-github-square" />
                                 </SocialLink>
                                 <SocialLink href={`https://www.linkedin.com/in/anthony-yu-015266145/`}>
                                     <i className="fab fa-linkedin" />
                                 </SocialLink>
-                                <SocialLink href={`mailto: zequnyu11@gmail.com`}>
+                                <SocialLink href={`mailto:zequnyu11@gmail.com`}>
                                     <i className="fas fa-envelope-square"/>
                                 </SocialLink>
                             </SocialIconDiv>
