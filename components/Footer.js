@@ -15,15 +15,16 @@ const FooterDiv = styled.footer`
 
 const Line = styled.hr`
     margin-top: 15px;
+    margin-bottom: -25px;
     width: 70px;
     border-bottom: 5px solid #112088;
     border-radius: 5px;
 `;
 
 const TextDiv = styled.div`
-    font-family: sans-serif;
-    font-weight: lighter;
-    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    
     
     width: 100%;
     

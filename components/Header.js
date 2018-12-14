@@ -40,8 +40,14 @@ const LogoDiv = styled.div`
     &:hover {
         cursor: pointer;
         opacity: 0.6;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
     }
+    
     transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
 `;
 
 const LogoDivTop = styled.div`
