@@ -95,6 +95,7 @@ const StatusText = styled.h3`
     font-weight: normal;
     font-size: 1em;
     text-align: left;
+    margin-right: 5px;
 `;
 
 const USCLogo = styled.img`
@@ -142,7 +143,7 @@ class Index extends React.Component {
                         <Link href={`/code`}>
                             <LinkText>CODE</LinkText>
                         </Link>
-                        <Link href={`/cv`}>
+                        <Link href={`/static/cv.pdf`}>
                             <LinkText>CV</LinkText>
                         </Link>
                         <Link href={`/writing`}>
