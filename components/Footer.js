@@ -48,15 +48,6 @@ const HeartIcon = styled.span`
         background-position: -2800px 0;
         transition: background 1s steps(28);
     }
-    
-    @keyframes fave-heart {
-        0% {
-            background-position: 0 0;
-        }
-        100% {
-            background-position: -2800px 0;
-        }
-    }
 `;
 
 const TextRight = styled.span`

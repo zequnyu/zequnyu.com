@@ -1,8 +1,28 @@
 import Layout from '../components/Layout.js'
-import styled from 'styled-components'
+import styled, { keyframes } from "styled-components"
 import Link from 'next/link'
 import avatarImg from '../static/avatar.png'
 import uscImg from '../static/usc.png'
+
+const moveFromLeft = keyframes`
+    from {
+        margin-left: -40px;
+    }
+    
+    to {
+        margin-left: 0;
+    }
+`;
+
+const moveFromRight = keyframes`
+    from {
+        margin-right: -40px;
+    }
+    
+    to {
+        margin-right: 0;
+    }
+`;
 
 const Content = styled.div`
     max-width: 960px;
@@ -60,6 +80,10 @@ const Avatar = styled.img`
     border-radius: 50%;
     
     box-shadow: 0 0 20px rgba(172,168,90,0.2);
+    
+    animation: ${moveFromLeft} .5s ease-out;
+    -webkit-animation: ${moveFromLeft} .5s ease-out;
+    -moz-animation: ${moveFromLeft} .5s ease-out;
 `;
 
 const InfoDiv = styled.div`
@@ -70,6 +94,10 @@ const InfoDiv = styled.div`
     justify-content: center;
     align-items: start;
     padding-bottom: 60px;
+    
+    animation: ${moveFromRight} .5s ease-out;
+    -webkit-animation: ${moveFromRight} .5s ease-out;
+    -moz-animation: ${moveFromRight} .5s ease-out;
 `;
 
 const HiText = styled.h1`

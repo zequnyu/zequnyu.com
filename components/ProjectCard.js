@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Link from "next/link";
+
 
 const CardDiv = styled.div`
     display: flex;
@@ -14,13 +14,13 @@ const CardDiv = styled.div`
 `;
 
 const Card = styled.div`
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 2);
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 2) .2s;
     background-color: #ffffff;
     position: relative;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 13px 10px -7px rgba(0, 0, 0,0.2);
-    width: 100%;
+    width: 85%;
     
     &:hover {
         box-shadow: 0 30px 18px -8px rgba(0, 0, 0,0.2);
@@ -47,7 +47,7 @@ const ImgDiv = styled.div`
 `;
 
 const ImgHoverDiv = styled.div`
-    transition: 0.2s all ease-out;
+    transition: 0.3s all ease-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

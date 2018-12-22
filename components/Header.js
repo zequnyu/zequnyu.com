@@ -45,6 +45,10 @@ const LogoDiv = styled.div`
         -moz-transition: all 0.3s linear;
     }
     
+    &:active {
+        opacity: 1;
+    }
+    
     transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
