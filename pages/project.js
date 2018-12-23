@@ -66,7 +66,7 @@ class Project extends React.Component {
                         title="Travel Dashboard (2016-2017)"
                         intro="Data analysis tool built for Atos UK"
                         bgImg={travelImg}
-                        url="https://github.com/zequnyu/Diamond-Hunter"
+                        url="https://github.com/zequnyu/TravelDashboard"
                         suppressClassNameWarning
                     />
                     <Card

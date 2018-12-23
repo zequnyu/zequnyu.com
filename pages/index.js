@@ -40,6 +40,9 @@ const NavBar = styled.nav`
     justify-content: space-around;
     align-items: center;
     
+    margin: 0 auto;
+    width: 60%;
+    
     font-family: 'Open Sans', sans-serif;
     color: #666666;
 `;
@@ -168,15 +171,15 @@ class Index extends React.Component {
                         <Link href={`/project`}>
                             <LinkText>PROJECT</LinkText>
                         </Link>
-                        <Link href={`/code`}>
-                            <LinkText>CODE</LinkText>
-                        </Link>
+                        {/*<Link href={`/code`}>*/}
+                            {/*<LinkText>CODE</LinkText>*/}
+                        {/*</Link>*/}
                         <Link href={`/static/cv.pdf`}>
                             <LinkText>CV</LinkText>
                         </Link>
-                        <Link href={`/writing`}>
-                            <LinkText>WRITING</LinkText>
-                        </Link>
+                        {/*<Link href={`/writing`}>*/}
+                            {/*<LinkText>WRITING</LinkText>*/}
+                        {/*</Link>*/}
                     </NavBar>
                     <AboutDiv>
                         <AvatarDiv>
