@@ -7,4 +7,4 @@ Thank you to:
 
 [sarahlichang](http://www.sarahlichang.com)
 
-for inspiring me to design the website.
+for design inspiration.
