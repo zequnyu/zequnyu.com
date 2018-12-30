@@ -1,4 +1,4 @@
-# [www.zequnyu.com](https://www.zequnyu.com)
+# ![mdlogo](static/mdlogo.png) [www.zequnyu.com](https://www.zequnyu.com)
 My personal website built with Next.js
 
 Thank you to:
@@ -7,4 +7,5 @@ Thank you to:
 
 [sarahlichang](http://www.sarahlichang.com)
 
-for design inspiration.
+for design inspiration
+
