@@ -38,12 +38,13 @@ const Content = styled.div`
         height: 60vh;
     }
     @media (min-width: ${props => props.theme.desktop}) {
-        width: 60%;
+        height: 60vh;
     }
     
     
     display: flex;
     flex-flow: column nowrap;
+    
 `;
 
 const NavBar = styled.nav`
@@ -110,8 +111,6 @@ const AvatarDiv = styled.div`
     justify-content: center;
     align-items: center;
     
-    
-    
     @media (max-width: ${props => props.theme.mobile}) {
         padding-top: 25px;
     }
@@ -131,8 +130,8 @@ const Avatar = styled.img`
     box-shadow: 0 0 20px rgba(172,168,90,0.2);
     
     @media (max-width: ${props => props.theme.mobile}) {
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         align-items: center;
         animation: ${moveFromUp} .5s ease-out;
     }
@@ -158,18 +157,18 @@ const InfoDiv = styled.div`
     @media (max-width: ${props => props.theme.mobile}) {
         align-items: center;
         animation: ${moveFromUp} .5s ease-out;
-        
+        padding-bottom: 20px;
     }
     @media (min-width: ${props => props.theme.mobile}) {
         align-items: start;
         animation: ${moveFromUpDouble} .5s ease-out;
+        padding-bottom: 60px;
     }
     @media (min-width: ${props => props.theme.desktop}) {
         animation: ${moveFromUpDouble} .5s ease-out;
         align-items: start;
+        padding-bottom: 60px;
     }
-    
-    padding-bottom: 60px;
     
 `;
 
@@ -181,11 +180,17 @@ const HiText = styled.h1`
     #darkred {
         color: #8e191c;
     }
+    
+    @media (max-width: ${props => props.theme.mobile}) {
+        margin-bottom: 5px;
+    }
 `;
 
 const StatusSpan = styled.span`
     display: flex;
     align-items: center;
+    
+    
     
     @media (max-width: ${props => props.theme.mobile}) {
         flex-flow: column nowrap;
@@ -217,6 +222,7 @@ const StatusText = styled.h3`
 const USCLogo = styled.img`
     padding: 10px;
     @media (max-width: ${props => props.theme.mobile}) {
+        margin-top: -15px;
         height: 80px;
         width: auto;
     }
@@ -236,6 +242,10 @@ const SocialIconDiv = styled.div`
     display: flex;
     flex-flow: row nowrap;
     margin-top: 30px;
+    
+    @media (min-width: ${props => props.theme.mobile}) {
+        margin-top: 10px;
+    }
 `;
 
 const SocialLink = styled.a`
@@ -251,7 +261,11 @@ const SocialLink = styled.a`
     
     @media (max-width: ${props => props.theme.mobile}) {
         font-size: 42px;
-        margin-top: -30px;
+        margin-top: 45px;
+    }
+    
+    @media (min-width: ${props => props.theme.mobile}) {
+        margin-top: 0;
     }
     
     transition: all 0.3s linear;

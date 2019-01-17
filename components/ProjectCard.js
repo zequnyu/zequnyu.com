@@ -1,12 +1,21 @@
-import styled from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
+import theme from "./theme";
 
 
 const CardDiv = styled.div`
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content: center;
-    width: 600px;
+    
+    @media (max-width: ${props => props.theme.mobile}) {
+        width: 360px;
+    }
+    @media (min-width: ${props => props.theme.mobile}) {
+        width: 500px;
+    }
+    @media (min-width: ${props => props.theme.desktop}) {
+        width: 600px;
+    }
     
     text-decoration: none;
     padding-top: 40px;
@@ -41,6 +50,7 @@ const ImgDiv = styled.div`
     background-repeat: no-repeat;
     width: 100%;
     height: 240px;
+    
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     background-image: url(${props => props.bgImg});
@@ -107,19 +117,21 @@ function ProjectCard(props) {
     }
     
     return (
-        <CardDiv onClick={handleClick}>
-            <Card>
-                <ImgDiv bgImg={props.bgImg} />
-                <ImgHoverDiv id="hover" bgImg={props.bgImg} />
-                <InfoDiv>
-                    <InfoTitle>
-                        {props.title}
-                    </InfoTitle>
-                    <InfoIntro>{props.intro}</InfoIntro>
-                </InfoDiv>
-                <InfoHoverDiv/>
-            </Card>
-        </CardDiv> 
+        <ThemeProvider theme={theme}>
+            <CardDiv onClick={handleClick}>
+                <Card>
+                    <ImgDiv bgImg={props.bgImg} />
+                    <ImgHoverDiv id="hover" bgImg={props.bgImg} />
+                    <InfoDiv>
+                        <InfoTitle>
+                            {props.title}
+                        </InfoTitle>
+                        <InfoIntro>{props.intro}</InfoIntro>
+                    </InfoDiv>
+                    <InfoHoverDiv/>
+                </Card>
+            </CardDiv>
+        </ThemeProvider>
     );
 }
 

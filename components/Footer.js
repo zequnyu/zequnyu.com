@@ -9,8 +9,9 @@ const FooterDiv = styled.footer`
     align-items: center;
     padding-bottom: 20px;
     
-    bottom: 0;
-    left: 0;
+    margin-top: 20px;
+    //bottom: 0;
+    //left: 0;
 `;
 
 const Line = styled.hr`
