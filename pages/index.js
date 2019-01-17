@@ -30,7 +30,17 @@ const Content = styled.div`
     //max-width: 960px;
     //min-width: 700px;
     margin: 0 auto;
-    height: 60vh;
+    
+    @media (max-width: ${props => props.theme.mobile}) {
+        height: 80vh;
+    }
+    @media (min-width: ${props => props.theme.mobile}) {
+        height: 60vh;
+    }
+    @media (min-width: ${props => props.theme.desktop}) {
+        width: 60%;
+    }
+    
     
     display: flex;
     flex-flow: column nowrap;
@@ -72,7 +82,7 @@ const LinkText = styled.a`
     }
     
     @media (max-width: ${props => props.theme.mobile}) {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 `;
 
@@ -85,6 +95,7 @@ const AboutDiv = styled.div`
         flex-flow: column nowrap;
     }
     @media (min-width: ${props => props.theme.mobile}) {
+        margin-left: -40px;
         flex-flow: row wrap;
     }
     @media (min-width: ${props => props.theme.desktop}) {
@@ -120,6 +131,8 @@ const Avatar = styled.img`
     box-shadow: 0 0 20px rgba(172,168,90,0.2);
     
     @media (max-width: ${props => props.theme.mobile}) {
+        width: 150px;
+        height: 150px;
         align-items: center;
         animation: ${moveFromUp} .5s ease-out;
     }
@@ -145,6 +158,7 @@ const InfoDiv = styled.div`
     @media (max-width: ${props => props.theme.mobile}) {
         align-items: center;
         animation: ${moveFromUp} .5s ease-out;
+        
     }
     @media (min-width: ${props => props.theme.mobile}) {
         align-items: start;
@@ -156,6 +170,7 @@ const InfoDiv = styled.div`
     }
     
     padding-bottom: 60px;
+    
 `;
 
 const HiText = styled.h1`
@@ -170,14 +185,27 @@ const HiText = styled.h1`
 
 const StatusSpan = styled.span`
     display: flex;
-    flex-flow: row nowrap;
     align-items: center;
     
-    
+    @media (max-width: ${props => props.theme.mobile}) {
+        flex-flow: column nowrap;
+    }
+    @media (min-width: ${props => props.theme.mobile}) {
+        flex-flow: row nowrap;
+    }
+    @media (min-width: ${props => props.theme.desktop}) {
+        flex-flow: row nowrap;
+    }  
 `;
 
 const StatusText = styled.h3`
-    flex: 0 0 200px;
+    @media (min-width: ${props => props.theme.mobile}) {
+        flex: 0 0 200px;
+    }
+    @media (min-width: ${props => props.theme.desktop}) {
+        flex: 0 0 200px;
+    }
+    
     color: #333333;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -187,9 +215,21 @@ const StatusText = styled.h3`
 `;
 
 const USCLogo = styled.img`
-    flex: 1;
-    height: 80px;
-    width: auto;
+    padding: 10px;
+    @media (max-width: ${props => props.theme.mobile}) {
+        height: 80px;
+        width: auto;
+    }
+    @media (min-width: ${props => props.theme.mobile}) {
+        flex: 1;
+        height: 80px;
+        width: auto;
+    }
+    @media (min-width: ${props => props.theme.desktop}) {
+        flex: 1;
+        height: 80px;
+        width: auto;
+    }
 `;
 
 const SocialIconDiv = styled.div`
@@ -210,7 +250,8 @@ const SocialLink = styled.a`
     }
     
     @media (max-width: ${props => props.theme.mobile}) {
-        font-size: 48px;
+        font-size: 42px;
+        margin-top: -30px;
     }
     
     transition: all 0.3s linear;

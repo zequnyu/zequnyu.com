@@ -21,6 +21,7 @@ export default class MyDocument extends Document {
                     crossOrigin="anonymous"
                 />
                 <link href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans" rel="stylesheet" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 {this.props.styleTags}
             </Head>
             <body>
