@@ -1,7 +1,7 @@
 import Layout from '../components/Layout.js'
 import styled, { ThemeProvider, keyframes } from "styled-components"
 import Link from 'next/link'
-import avatarImg from '../static/avatar.png'
+import avatarImg from '../static/avatar2.png'
 import uscImg from '../static/usc.png'
 import theme from '../components/theme.js'
 
