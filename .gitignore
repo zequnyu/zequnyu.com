@@ -24,5 +24,4 @@ chrome-user-data
 *.swo
 
 .idea/
-.next/
 out/
