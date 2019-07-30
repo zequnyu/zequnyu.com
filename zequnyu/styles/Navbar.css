@@ -1,0 +1,17 @@
+#logo {
+    height: 100%;
+}
+
+#navbar-center {
+    flex: 1;
+    justify-content: center;
+}
+
+#navbar-center-item {
+    color: #7a7a7a;
+}
+
+#navbar-center-item-active {
+    color: hsl(0, 0%, 21%);
+    font-weight: bold;
+}
