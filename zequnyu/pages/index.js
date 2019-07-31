@@ -21,7 +21,7 @@ function Index() {
                                     <span className="info-text-up-hi">Hi,</span> I'm Zequn
                                 </div>
                                 <div className="info-text-mid">
-                                    I'm currently a MSc CS student at
+                                    I'm currently a MSc Computer Science student at
                                     <span>
                                         <img className="info-text-mid-usc" src='/static/usc.png' alt="USC Logo" />
                                     </span>
