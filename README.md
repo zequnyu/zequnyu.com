@@ -10,6 +10,7 @@
 
 My personal website built with Next.js and Bulma
 
+![Screenshot](zequnyu/static/screenshot.png)
 
 Thank you to:
 
@@ -21,4 +22,4 @@ Thank you to:
 
 for design inspiration
 
-Old version: [v1](https://zequnyu-v1.netlify.com)
+2018 version: [v1](https://zequnyu-v1.netlify.com)
