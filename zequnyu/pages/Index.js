@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Projects from "../components/Projects";
 
 import 'bulma/css/bulma.min.css'
 import '../styles/Index.css'
@@ -27,7 +27,7 @@ function Index() {
                                     </span>
                                 </div>
                                 <div className="info-text-down">
-                                    I'm also a student worker at USC
+                                    I'm also a student worker at USC RESL lab
                                     <span>
                                         <img className="info-text-down-resl" src='/static/resl.png' alt="RESL Logo" />
                                     </span>
@@ -37,6 +37,7 @@ function Index() {
                     </div>
                 </div>
             </div>
+            <Projects />
         </div>
 
 

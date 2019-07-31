@@ -44,29 +44,28 @@ class Navbar extends React.Component {
                     </div>
                     <div className={this.state.burgerActive ? "navbar-menu is-active": "navbar-menu"} id="menu-hero">
                         <div className="navbar-item" id="navbar-center">
-                            <Link href="/">
-                                <span
-                                    name="project"
-                                    className="button is-white"
-                                    id="navbar-center-item"
-                                >
-                                    project
-                                </span>
-                            </Link>
-                            <Link href={`/blog`}>
-                                <span
-                                    name="blog"
-                                    className="button is-white"
-                                    id="navbar-center-item"
-                                >
-                                    blog
-                                </span>
-                            </Link>
+                            {/*<Link href="/">*/}
+                            {/*    <span*/}
+                            {/*        name="project"*/}
+                            {/*        className="button is-white"*/}
+                            {/*        id="navbar-center-item"*/}
+                            {/*    >*/}
+                            {/*        project*/}
+                            {/*    </span>*/}
+                            {/*</Link>*/}
+                            {/*<Link href={`/blog`}>*/}
+                            {/*    <span*/}
+                            {/*        name="blog"*/}
+                            {/*        className="button is-white"*/}
+                            {/*        id="navbar-center-item"*/}
+                            {/*    >*/}
+                            {/*        blog*/}
+                            {/*    </span>*/}
+                            {/*</Link>*/}
                             <Link href={`/static/cv.pdf`}>
                                 <span
                                     name="resume"
-                                    className="button is-white"
-                                    id="navbar-center-item"
+                                    className="nav-button is-white"
                                 >
                                     resume
                                 </span>

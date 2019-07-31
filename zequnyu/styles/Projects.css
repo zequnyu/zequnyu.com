@@ -1,0 +1,91 @@
+#projects {
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+@media screen and (max-width: 768px) {
+    .long-column {
+        height: 200px;
+    }
+
+    .wide-column {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .long-column {
+        height: 400px;
+    }
+
+    .wide-column {
+        height: 300px;
+    }
+
+    #fill-up-margin {
+        margin-top: -100px;
+    }
+}
+
+
+
+.box {
+    height: 100%;
+    transition: 0.4s;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.box-title {
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.box-subtitle {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box1 {
+    background: url('/static/garage.gif') no-repeat;
+    background-size: 100%;
+    justify-content: flex-start;
+}
+
+.box2 {
+    background: url('/static/traveldashboard.png') no-repeat;
+    background-size: 100%;
+    justify-content: flex-start;
+}
+
+.box3 {
+    background: url('/static/diamond.png') no-repeat;
+    background-size: 100%;
+    justify-content: flex-start;
+}
+
+.box4 {
+    background: url('/static/ids.png') no-repeat;
+    background-size: 100%;
+    justify-content: flex-start;
+}
+
+.box5 {
+    background: url('/static/website.png') no-repeat;
+    background-size: 100%;
+    justify-content: flex-start;
+}
+
+.box6 {
+    background: url('/static/urank.png') no-repeat;
+    background-size: 100%;
+    justify-content: flex-end;
+}
+
+.box:hover {
+    transform: scale(0.95, 0.95);
+    box-shadow: 0 4px 6px rgba(0 , 0, 0, 0.1), 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
