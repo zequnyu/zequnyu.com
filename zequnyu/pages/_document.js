@@ -13,6 +13,10 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head />
+                <link
+                    href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans&display=swap"
+                    rel="stylesheet"
+                />
                 <body className="has-navbar-fixed-top">
                 <Main />
                 <NextScript />
