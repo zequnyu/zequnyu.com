@@ -1,8 +1,10 @@
 import React from 'react';
 import App, { Container } from 'next/app';
+import Head from "next/head";
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+
 
 
 class MyApp extends App {
@@ -11,6 +13,9 @@ class MyApp extends App {
 
         return (
             <Container>
+                <Head>
+                    <title>Zequn Yu</title>
+                </Head>
                 <Navbar />
                 <Component {...pageProps} />
                 <Footer />
