@@ -62,14 +62,14 @@ class Navbar extends React.Component {
                             {/*        blog*/}
                             {/*    </span>*/}
                             {/*</Link>*/}
-                            <Link href={`/static/cv.pdf`}>
+                            <a href='/static/cv.pdf'>
                                 <span
                                     name="resume"
                                     className="nav-button is-white"
                                 >
                                     resume
                                 </span>
-                            </Link>
+                            </a>
                         </div>
 
                         <div className="navbar-end">
