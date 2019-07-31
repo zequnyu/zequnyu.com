@@ -12,11 +12,13 @@ class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <Head />
-                <link
-                    href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans&display=swap"
-                    rel="stylesheet"
-                />
+                <Head>
+                    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />.
+                    <link
+                        href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans&display=swap"
+                        rel="stylesheet"
+                    />
+                </Head>
                 <body className="has-navbar-fixed-top">
                 <Main />
                 <NextScript />
