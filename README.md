@@ -1,14 +1,14 @@
 <p align="center">
 	<a href="https://www.zequnyu.com">
-		<img height="128" width="128" src="static/mdlogo.png">
+		<img height="64" width="64" src="zequnyu/static/logo.png">
 	</a>
 </p>
 
-<h1 align="center">
+<h3 align="center">
     <a href="https://www.zequnyu.com">zequnyu.com</a>
-</h1>
+</h3>
 
-My personal website built with Next.js
+My personal website built with Next.js and Bulma
 
 
 Thank you to:
@@ -17,4 +17,8 @@ Thank you to:
 
 [sarahlichang](http://www.sarahlichang.com)
 
+[Krijn Rijshouwer](https://dribbble.com/shots/3912289-Lifestyle-Blog)
+
 for design inspiration
+
+Old version: [v1](https://zequnyu-v1.netlify.com)
