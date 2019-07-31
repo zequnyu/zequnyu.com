@@ -1,0 +1,43 @@
+.info-text {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+.info-text-up {
+    font-family: 'Francois One', sans-serif;
+    font-size: 2.2em;
+}
+
+.info-text-up-hi {
+    color: #8e191c;
+}
+
+.info-text-mid {
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    align-items: center;
+}
+
+.info-text-mid-usc {
+    margin-left: 10px;
+    display: inline-block;
+    height: 80px;
+    width: auto;
+}
+
+.info-text-down {
+    font-family: 'Open Sans', sans-serif;
+
+    display: flex;
+    align-items: center;
+}
+
+.info-text-down-resl {
+    margin-left: 10px;
+    display: inline-block;
+    height: 60px;
+    width: auto;
+}
+
