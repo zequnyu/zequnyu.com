@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import PropTypes from 'prop-types';
 
 import 'bulma/css/bulma.min.css'
 import '../styles/Navbar.css'

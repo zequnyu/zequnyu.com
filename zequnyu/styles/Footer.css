@@ -1,0 +1,29 @@
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-img {
+    margin-left: -25px;
+    margin-right: -25px;
+
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    background: url('/static/footer.png') no-repeat 0 0;
+    opacity: 0.8;
+}
+
+.footer-img:hover {
+    background-position: -2800px 0;
+    transition: background 1s steps(28);
+}
