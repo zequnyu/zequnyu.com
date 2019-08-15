@@ -5,7 +5,7 @@ import 'bulma/css/bulma.min.css'
 import '../styles/Navbar.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+import {faEnvelopeSquare, faHome, faUserTie} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 class Navbar extends React.Component {
@@ -44,32 +44,24 @@ class Navbar extends React.Component {
                     </div>
                     <div className={this.state.burgerActive ? "navbar-menu is-active": "navbar-menu"} id="menu-hero">
                         <div className="navbar-item" id="navbar-center">
-                            {/*<Link href="/">*/}
-                            {/*    <span*/}
-                            {/*        name="project"*/}
-                            {/*        className="button is-white"*/}
-                            {/*        id="navbar-center-item"*/}
-                            {/*    >*/}
-                            {/*        project*/}
-                            {/*    </span>*/}
-                            {/*</Link>*/}
-                            {/*<Link href={`/blog`}>*/}
-                            {/*    <span*/}
-                            {/*        name="blog"*/}
-                            {/*        className="button is-white"*/}
-                            {/*        id="navbar-center-item"*/}
-                            {/*    >*/}
-                            {/*        blog*/}
-                            {/*    </span>*/}
-                            {/*</Link>*/}
-                            <a href='/about'>
+                            <Link href={`/`}>
                                 <span
-                                    name="resume"
-                                    className="nav-button is-white"
+                                    name="home"
+                                    className="button is-white"
+                                    id="nav-button navbar-center-item"
                                 >
-                                    about
+                                    <FontAwesomeIcon icon={faHome} id="narbar-icon" /> home
                                 </span>
-                            </a>
+                            </Link>
+                            <Link href={`/about`}>
+                                <span
+                                    name="about"
+                                    className="button is-white"
+                                    id="nav-button navbar-center-item"
+                                >
+                                    <FontAwesomeIcon icon={faUserTie} id="narbar-icon" /> about
+                                </span>
+                            </Link>
                         </div>
 
                         <div className="navbar-end">
