@@ -39,7 +39,7 @@ function About() {
                                     </div>
                                 </div>
                             </div>
-                            {/*Profile*/}
+                            {/*Update*/}
                             <div className="level">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
@@ -47,7 +47,7 @@ function About() {
                                             <FontAwesomeIcon icon={faUser} />
                                         </span>
                                         <span className="cv-section-subtitle-text">
-                                            Profile
+                                            Update
                                         </span>
                                     </div>
                                     <div className="cv-section-content">
@@ -73,9 +73,12 @@ function About() {
                                     <div className="cv-section-content">
                                         {/*Education 1*/}
                                         <div className="cv-section-content-record">
-                                            <div className="cv-section-content-record-title">
-                                                MSc Computer Science, <span id="text-bold">
-                                                University of Southern California (USC) </span>
+                                            <div className="cv-section-content-record-title" id="text-bold">
+                                                University of Southern California (USC)
+                                            </div>
+                                            <div className="cv-section-content-record-main"
+                                                 id="left-align">
+                                                MSc Computer Science&nbsp;
                                                 <FontAwesomeIcon
                                                     icon={faMapMarkerAlt}
                                                     id="icon-location"
@@ -91,9 +94,12 @@ function About() {
                                         </div>
                                         {/*Education 2*/}
                                         <div className="cv-section-content-record" id="cv-section-content-record-last">
-                                            <div className="cv-section-content-record-title">
-                                                BSc Computer Science, <span id="text-bold">
-                                                University of Nottingham (UoN) </span>
+                                            <div className="cv-section-content-record-title" id="text-bold">
+                                                University of Nottingham (UoN)
+                                            </div>
+                                            <div className="cv-section-content-record-main"
+                                                 id="left-align">
+                                                BSc Computer Science&nbsp;
                                                 <FontAwesomeIcon
                                                     icon={faMapMarkerAlt}
                                                     id="icon-location"
@@ -334,7 +340,7 @@ function About() {
                                             </div>
                                         </div>
                                         {/*Project 3*/}
-                                        <div className="cv-section-content-record">
+                                        <div className="cv-section-content-record" id="cv-section-content-record-last">
                                             <div className="cv-section-content-record-title" id="text-bold">
                                                 Travel Dashboard
                                             </div>
@@ -386,7 +392,7 @@ function About() {
                                     </div>
                                     <div className="cv-section-content">
                                         <div className="cv-section-content-record-main" id="left-align">
-                                            RTH422 <br />
+                                            Ronald Tutor Hall <br />
                                             3710 McClintock Ave <br />
                                             Los Angeles, CA 90089 <br />
                                             TEL: (626)-703-9018
