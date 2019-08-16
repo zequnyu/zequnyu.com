@@ -56,6 +56,9 @@
 
 .cv-section-subtitle-icon {
     font-size: 0.9em;
+    position: relative;
+    left: 3px;
+    bottom: 3px;
 }
 
 .cv-section-subtitle-text {
