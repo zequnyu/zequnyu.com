@@ -135,8 +135,9 @@ function About() {
                                         {/*Working Experience 1*/}
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title" id="text-bold">
-                                                garage:  A Framework for Reproducible Reinforcement
-                                                Learning (RL) Research
+                                                <a href="https://github.com/rlworkgroup/garage" target="_blank"
+                                                   rel="noopener noreferrer">garage</a>:  A Framework for
+                                                Reproducible Reinforcement Learning (RL)
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
