@@ -89,7 +89,7 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Expected to graduate in <span id="text-bold">December 2020</span>
+                                                Expected to graduate in <span id="text-bold">Spring 2021</span>
                                             </div>
                                         </div>
                                         {/*Education 2*/}
@@ -106,7 +106,7 @@ function About() {
                                                 /> Ningbo-Nottingham
                                             </div>
                                             <div className="cv-section-content-record-time">
-                                                June 2014 - September 2018
+                                                September 2014 - June 2018
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
@@ -120,7 +120,7 @@ function About() {
                                     </div>
                                 </div>
                             </div>
-                            {/*Working Experience*/}
+                            {/*Work Experience*/}
                             <div className="level">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
@@ -128,11 +128,11 @@ function About() {
                                             <FontAwesomeIcon icon={faBriefcase} />
                                         </span>
                                         <span className="cv-section-subtitle-text">
-                                            Working Experience
+                                            Work Experience
                                         </span>
                                     </div>
                                     <div className="cv-section-content">
-                                        {/*Working Experience 1*/}
+                                        {/*Work Experience 1*/}
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title" id="text-bold">
                                                 <a href="https://github.com/rlworkgroup/garage" target="_blank"
@@ -157,15 +157,14 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Participating in unit and integration coverage test and peer
-                                                code review
+                                                Participating in code coverage test and peer code review
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
                                                 Experiencing various of state-of-art RL algorithms
                                             </div>
                                         </div>
-                                        {/*Working Experience 2*/}
+                                        {/*Work Experience 2*/}
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title" id="text-bold">
                                                 Data Mining of Chinese Student Applying for Foreign University
@@ -197,7 +196,7 @@ function About() {
                                                 Gunicorn and Nginx
                                             </div>
                                         </div>
-                                        {/*Working Experience 3*/}
+                                        {/*Work Experience 3*/}
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title" id="text-bold">
                                                 Snowball: Facial Action Unit (AU) Detection using Caffe
@@ -229,7 +228,7 @@ function About() {
                                                 API in C++ and Python
                                             </div>
                                         </div>
-                                        {/*Working Experience 4*/}
+                                        {/*Work Experience 4*/}
                                         <div className="cv-section-content-record" id="cv-section-content-record-last">
                                             <div className="cv-section-content-record-title" id="text-bold">
                                                 Web Crawling for "YeeSight" Project
