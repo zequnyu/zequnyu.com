@@ -1,0 +1,61 @@
+.tag {
+    margin-bottom: 5px;
+}
+
+#python {
+    color: white;
+    background-color: #4ECDC4;
+}
+
+#javascript {
+    color: white;
+    background-color: #d17d38;
+}
+
+#react {
+    background-color: #c8dde4;
+}
+
+#flask {
+    color: white;
+    background-color: #04131c;
+}
+
+#haskell {
+    color: white;
+    background-color: #7d7480;
+}
+
+#cpp {
+    color: white;
+    background-color: #1A535C;
+}
+
+#htmlcss {
+    color: white;
+    background-color: #e3919f;
+}
+
+#swift {
+    color: white;
+    background-color: #8f3b27;
+}
+
+#mongodb {
+    background-color: #FFE66D;
+}
+
+#matlab {
+    color: white;
+    background-color: #98b754;
+}
+
+#java {
+    color: white;
+    background-color: #f56138;
+}
+
+#mysql {
+    color: white;
+    background-color: #3f5d92;
+}

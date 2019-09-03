@@ -2,6 +2,7 @@ import React from 'react';
 
 import 'bulma/css/bulma.min.css'
 import '../styles/About.css'
+import '../styles/tags.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -147,7 +148,6 @@ function About() {
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
                                                 <span className="tag" id="python">Python</span>&nbsp;
-                                                <span className="tag" id="git">Git</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 May 2019 - Present
@@ -186,7 +186,7 @@ function About() {
                                                 <span className="tag" id="python">Python</span>&nbsp;
                                                 <span className="tag" id="javascript">Javascript</span>&nbsp;
                                                 <span className="tag" id="react">React</span>&nbsp;
-                                                <span className="tag" id="flask">Flask</span>
+                                                <span className="tag" id="mongodb">MongoDB</span>&nbsp;
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 June 2018 - November 2018
@@ -301,19 +301,23 @@ function About() {
                                     <div className="cv-section-content">
                                         {/*Project 1*/}
                                         <div className="cv-section-content-record">
-                                            <div className="cv-section-content-record-title" id="text-bold">
-                                                uRank: University Rankings Collection
+                                            <div className="cv-section-content-record-title">
+                                                <span id="text-bold">uRank: University Rankings Collection&nbsp;</span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Los Angeles
+                                                </span>
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                Software developer, Personal project&nbsp;
-                                                <FontAwesomeIcon
-                                                    icon={faMapMarkerAlt}
-                                                    id="icon-location"
-                                                /> Los Angeles
+                                                <span className="tag" id="javascript">Javascript</span>&nbsp;
+                                                <span className="tag" id="react">React</span>&nbsp;
+                                                <span className="tag" id="python">Python</span>&nbsp;
                                             </div>
                                             <div className="cv-section-content-record-time">
-                                                Nov 2018 - June 2019
+                                                Nov 2018 - April 2019
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
@@ -328,29 +332,39 @@ function About() {
                                         </div>
                                         {/*Project 2*/}
                                         <div className="cv-section-content-record">
-                                            <div className="cv-section-content-record-title" id="text-bold">
-                                                Workload and Facial Expression Linkage Analysis
+                                            <div className="cv-section-content-record-title">
+                                                <span id="text-bold">
+                                                    Workload and Facial Expression Linkage Analysis&nbsp;
+                                                </span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Nottingham
+                                                </span>
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                Research intern, UoN Mixed Reality Lab&nbsp;
-                                                <FontAwesomeIcon
-                                                    icon={faMapMarkerAlt}
-                                                    id="icon-location"
-                                                /> Nottingham
+                                                <span className="tag" id="matlab">MATLAB</span>&nbsp;
+                                                <span className="tag" id="python">Python</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 October 2017 - May 2018
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Advisor: Dr. Max Wilson
+                                                <span id="text-bold">UoN Mixed Reality Lab</span>&nbsp;
+                                                | Advisor: Dr. Max Wilson
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
                                                 Undergraduate dissertation: Data Collection and Analysis
                                                 of the Linkage between Mental Workload and Spontaneous
                                                 Facial Expression on Pattern Recognition Task
+                                            </div>
+                                            <div className="cv-section-content-record-main">
+                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
+                                                Recruited 20 participants for facial and brain workload data collection
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
@@ -363,38 +377,49 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Benchmarked facial AUs using multiple Machine Learning
-                                                models
+                                                Benchmarked facial AUs and fNIRS by multiple ML models such as
+                                                SVM, ANN using MATLAB
                                             </div>
                                         </div>
                                         {/*Project 3*/}
                                         <div className="cv-section-content-record" id="cv-section-content-record-last">
-                                            <div className="cv-section-content-record-title" id="text-bold">
-                                                Travel Dashboard
+                                            <div className="cv-section-content-record-title">
+                                                <span id="text-bold">
+                                                    Travel Dashboard: Travel Expense Track and Analysis&nbsp;
+                                                </span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Nottingham
+                                                </span>
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                Software developer, UoN & Atos UK Limited&nbsp;
-                                                <FontAwesomeIcon
-                                                    icon={faMapMarkerAlt}
-                                                    id="icon-location"
-                                                /> Nottingham
+                                                <span className="tag" id="java">Java</span>&nbsp;
+                                                <span className="tag" id="mysql">MySQL</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 September 2016 - May 2017
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Advisor: Prof. Natasa Milic-Frayling
+                                                <span id="text-bold">UoN & Atos UK Limited</span>&nbsp;
+                                                | Advisor: Prof. Natasa Milic-Frayling
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Built user management dashboard and Excel analysis tool
-                                                for Atos UK
+                                                Developed JavaFx desktop GUI software to support travel
+                                                expense track from Excel raw data input to PDF report generation
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Developed desktop GUI software using JavaFx and MySQL
+                                                Built user system using MySQL
+                                            </div>
+                                            <div className="cv-section-content-record-main">
+                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
+                                                Coordinated with Atos UK’s engineers and experienced
+                                                agile development
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
@@ -448,15 +473,14 @@ function About() {
                                                 <span className="tag" id="python">Python</span><br />
                                                 <span className="tag" id="javascript">Javascript</span><br />
                                                 <span className="tag" id="react">React</span><br />
-                                                Java <br />
+                                                <span className="tag" id="java">Java</span><br />
                                                 <span className="tag" id="cpp">C++</span><br />
-                                                Swift <br />
-                                                MATLAB <br />
+                                                <span className="tag" id="swift">Swift</span><br />
+                                                <span className="tag" id="matlab">MATLAB</span><br />
                                                 <span className="tag" id="htmlcss">HTML / CSS</span><br />
-                                                <span className="tag" id="flask">Flask</span><br />
-                                                Haskell <br />
+                                                <span className="tag" id="haskell">Haskell</span><br />
                                                 <span className="tag" id="mongodb">MongoDB</span><br />
-                                                MySQL
+                                                <span className="tag" id="mysql">MySQL</span>
                                             </div>
                                         </div>
                                         <div className="cv-section-content-record">
@@ -464,7 +488,7 @@ function About() {
                                                 Tools
                                             </div>
                                             <div className="cv-section-content-record-main" id="left-align">
-                                                <span className="tag" id="git">Git</span><br />
+                                                Git <br />
                                                 Xcode <br />
                                                 LaTeX <br />
                                                 Vim <br />

@@ -96,48 +96,6 @@
     vertical-align: middle;
 }
 
-.tag {
-    margin-bottom: 5px;
-}
-
-#python {
-    color: white;
-    background-color: #4ECDC4;
-}
-
-#javascript {
-    color: white;
-    background-color: #d17d38;
-}
-
-#react {
-    background-color: #c8dde4;
-}
-
-#flask {
-    color: white;
-    background-color: #04131c;
-}
-
-#git {
-    color: white;
-    background-color: #7d7480;
-}
-
-#cpp {
-    color: white;
-    background-color: #1A535C;
-}
-
-#htmlcss {
-    color: white;
-    background-color: #e3919f;
-}
-
-#mongodb {
-    background-color: #FFE66D;
-}
-
 #text-bold {
     font-weight: bold;
 }
