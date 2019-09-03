@@ -54,7 +54,7 @@ function About() {
                                         <div className="cv-section-content-record-title">
                                             I'm actively looking for <span id="text-bold">
                                             Software Engineering Intern</span> (Summer 2020). <br />
-                                            Please download my resume <a href="/static/cv.pdf">here</a>.
+                                            Please download my resume <a href="/static/ZequnYu.pdf">here</a>.
                                         </div>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Expected to graduate in <span id="text-bold">Spring 2021</span>
+                                                Expected to graduate in <span id="text-bold">January 2021</span>
                                             </div>
                                         </div>
                                         {/*Education 2*/}
@@ -128,54 +128,65 @@ function About() {
                                             <FontAwesomeIcon icon={faBriefcase} />
                                         </span>
                                         <span className="cv-section-subtitle-text">
-                                            Work Experience
+                                            Employment
                                         </span>
                                     </div>
                                     <div className="cv-section-content">
                                         {/*Work Experience 1*/}
                                         <div className="cv-section-content-record">
-                                            <div className="cv-section-content-record-title" id="text-bold">
-                                                <a href="https://github.com/rlworkgroup/garage" target="_blank"
-                                                   rel="noopener noreferrer">garage</a>:  A Framework for
-                                                Reproducible Reinforcement Learning (RL)
+                                            <div className="cv-section-content-record-title">
+                                                SDE student worker,&nbsp;
+                                                <span id="text-bold">USC Robotic Embedded Systems Lab&nbsp;</span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Los Angeles
+                                                </span>
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                Student worker, USC Robotic Embedded Systems Lab&nbsp;
-                                                <FontAwesomeIcon
-                                                    icon={faMapMarkerAlt}
-                                                    id="icon-location"
-                                                /> Los Angeles
+                                                <span className="tag" id="python">Python</span>&nbsp;
+                                                <span className="tag" id="git">Git</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 May 2019 - Present
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Refactoring and maintaining the open-sourced RL toolkit project
-                                                garage, with emphasis on system/API design and implementation
+                                                Maintain the open-sourced reinforcement learning project&nbsp;
+                                                <a href="https://github.com/rlworkgroup/garage" target="_blank"
+                                                   rel="noopener noreferrer" id="text-bold">garage</a>,
+                                                with emphasis on system design and implementation
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Participating in code coverage test and peer code review
+                                                Refactor the core of garage: LocalRunner and
+                                                experiment API
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Experiencing various of state-of-art RL algorithms
+                                                Contribute to continuous integration test and peer code review
                                             </div>
                                         </div>
                                         {/*Work Experience 2*/}
                                         <div className="cv-section-content-record">
-                                            <div className="cv-section-content-record-title" id="text-bold">
-                                                Data Mining of Chinese Student Applying for Foreign University
+                                            <div className="cv-section-content-record-title">
+                                                Full stack software engineer,&nbsp;
+                                                <span id="text-bold">WorthNote Co., Ltd.&nbsp;</span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Shanghai
+                                                </span>
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                Software engineer, WorthNote Co., Ltd.&nbsp;
-                                                <FontAwesomeIcon
-                                                    icon={faMapMarkerAlt}
-                                                    id="icon-location"
-                                                /> Shanghai
+                                                <span className="tag" id="python">Python</span>&nbsp;
+                                                <span className="tag" id="javascript">Javascript</span>&nbsp;
+                                                <span className="tag" id="react">React</span>&nbsp;
+                                                <span className="tag" id="flask">Flask</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 June 2018 - November 2018
@@ -184,6 +195,14 @@ function About() {
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
                                                 Collected and performed 400,000+ graduate application data records
                                                 using Python Scrapy, Pandas and MongoDB
+                                            </div>
+                                            <div className="cv-section-content-record-main">
+                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
+                                                Built company website
+                                                (<a href="https://worthnote.netlify.com"
+                                                                          target="_blank"
+                                                                          rel="noopener noreferrer">mirror</a>)
+                                                by Javascript and React
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
@@ -198,61 +217,70 @@ function About() {
                                         </div>
                                         {/*Work Experience 3*/}
                                         <div className="cv-section-content-record">
-                                            <div className="cv-section-content-record-title" id="text-bold">
-                                                Snowball: Facial Action Unit (AU) Detection using Caffe
+                                            <div className="cv-section-content-record-title">
+                                                Research + SDE intern,&nbsp;
+                                                <span id="text-bold">Chinese Academy of Sciences&nbsp;</span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Beijing
+                                                </span>
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                Software intern, Chinese Academy of Sciences&nbsp;
-                                                <FontAwesomeIcon
-                                                    icon={faMapMarkerAlt}
-                                                    id="icon-location"
-                                                /> Beijing
+                                                <span className="tag" id="cpp">C++</span>&nbsp;
+                                                <span className="tag" id="python">Python</span>&nbsp;
                                             </div>
                                             <div className="cv-section-content-record-time">
-                                                August 2017 - October 2017
+                                                July 2017 - October 2017
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
                                                 Worked at Key Lab of Intelligent Information Processing
-                                                with Prof. Shiguang Shan
+                                                supervised by Prof. Shiguang Shan
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Implemented end-to-end code for AU detection with Large-scale
-                                                unlabelled data in semi-supervised learning
-                                            </div>
-                                            <div className="cv-section-content-record-main">
-                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Studied source code of Caffe framework and experienced
+                                                Studied source code of Caffe framework and experienced its
                                                 API in C++ and Python
+                                            </div>
+                                            <div className="cv-section-content-record-main">
+                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
+                                                Implemented end-to-end code for facial Action Unit detection
+                                                with Large-scale unlabelled data in semi-supervised learning
                                             </div>
                                         </div>
                                         {/*Work Experience 4*/}
                                         <div className="cv-section-content-record" id="cv-section-content-record-last">
-                                            <div className="cv-section-content-record-title" id="text-bold">
-                                                Web Crawling for "YeeSight" Project
+                                            <div className="cv-section-content-record-title">
+                                                SDE intern,&nbsp;
+                                                <span id="text-bold">Global Tone Communication
+                                                    Tech Co., Ltd.&nbsp;</span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Qingdao
+                                                </span>
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                Software intern, Global Tone Communication Tech Co., Ltd.&nbsp;
-                                                <FontAwesomeIcon
-                                                    icon={faMapMarkerAlt}
-                                                    id="icon-location"
-                                                /> Qingdao
+                                                <span className="tag" id="python">Python</span>&nbsp;
+                                                <span className="tag" id="htmlcss">HTML / CSS</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
-                                                July 2016 - September 2016
+                                                June 2016 - September 2016
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Crawled 20+ websites and collected 2G+ bilingual text data
-                                                in English-Chinese
+                                                Crawled 20+ websites and collected 2G+ bilingual text
+                                                data in English-Chinese for YeeSight project using Python
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Experimented Python API, regular expression and web crawling
-                                                libraries: bs4, requests and selenium
+                                                Experienced web crawling libraries: beautifulsoup4,
+                                                requests and selenium
                                             </div>
                                         </div>
                                     </div>
@@ -417,23 +445,29 @@ function About() {
                                                 Programming
                                             </div>
                                             <div className="cv-section-content-record-main" id="left-align">
-                                                Python <br />
-                                                Javascript <br />
-                                                React <br />
-                                                HTML5 / CSS <br />
+                                                <span className="tag" id="python">Python</span><br />
+                                                <span className="tag" id="javascript">Javascript</span><br />
+                                                <span className="tag" id="react">React</span><br />
                                                 Java <br />
-                                                C++ <br />
+                                                <span className="tag" id="cpp">C++</span><br />
+                                                Swift <br />
+                                                MATLAB <br />
+                                                <span className="tag" id="htmlcss">HTML / CSS</span><br />
+                                                <span className="tag" id="flask">Flask</span><br />
                                                 Haskell <br />
-                                                MongoDB <br />
+                                                <span className="tag" id="mongodb">MongoDB</span><br />
                                                 MySQL
                                             </div>
                                         </div>
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title" id="text-bold">
-                                                Others
+                                                Tools
                                             </div>
                                             <div className="cv-section-content-record-main" id="left-align">
-                                                LaTeX<br />
+                                                <span className="tag" id="git">Git</span><br />
+                                                Xcode <br />
+                                                LaTeX <br />
+                                                Vim <br />
                                                 Markdown <br />
                                                 Prezi <br />
                                                 Pixelmator
