@@ -158,7 +158,8 @@ function About() {
                                                 Maintain the open-sourced reinforcement learning project&nbsp;
                                                 <a href="https://github.com/rlworkgroup/garage" target="_blank"
                                                    rel="noopener noreferrer" id="text-bold">garage</a>,
-                                                with emphasis on system design and implementation
+                                                with emphasis on system design and implementation (20+ commits
+                                                to master branch, 10,000+ lines change)
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
