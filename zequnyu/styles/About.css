@@ -33,6 +33,18 @@
     }
 }
 
+.education-section, .skills-section {
+    animation-delay: .3s;
+}
+
+.work-section {
+    animation-delay: .6s;
+}
+
+.project-section {
+    animation-delay: .9s;
+}
+
 .cv-title {
     padding-bottom: 20px;
 }

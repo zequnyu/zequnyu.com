@@ -1,6 +1,7 @@
 import React from 'react';
 
 import 'bulma/css/bulma.min.css'
+import 'animate.css/animate.min.css'
 import '../styles/About.css'
 import '../styles/tags.css'
 
@@ -23,7 +24,7 @@ function About() {
                     <div className="columns">
                         <div className="column is-three-quarters about-left">
                             {/*Title*/}
-                            <div className="level cv-title">
+                            <div className="level cv-title animated fadeIn">
                                 <div className="level-left">
                                     <div className="level-item">
                                         <figure className="image is-64x64">
@@ -41,7 +42,7 @@ function About() {
                                 </div>
                             </div>
                             {/*Update*/}
-                            <div className="level">
+                            <div className="level animated fadeIn">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
                                         <span className="icon cv-section-subtitle-icon">
@@ -61,7 +62,7 @@ function About() {
                                 </div>
                             </div>
                             {/*Education*/}
-                            <div className="level">
+                            <div className="level education-section animated fadeIn">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
                                         <span className="icon cv-section-subtitle-icon">
@@ -122,7 +123,7 @@ function About() {
                                 </div>
                             </div>
                             {/*Work Experience*/}
-                            <div className="level">
+                            <div className="level work-section animated fadeIn">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
                                         <span className="icon cv-section-subtitle-icon">
@@ -288,7 +289,7 @@ function About() {
                             </div>
 
                             {/*Projects*/}
-                            <div className="level">
+                            <div className="level project-section animated fadeIn">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
                                         <span className="icon cv-section-subtitle-icon">
@@ -433,7 +434,7 @@ function About() {
                         </div>
                         <div className="column is-one-quarter about-right">
                             {/*Contact*/}
-                            <div className="level">
+                            <div className="level animated fadeIn">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
                                             <span className="icon cv-section-subtitle-icon">
@@ -454,7 +455,7 @@ function About() {
                                 </div>
                             </div>
                             {/*Skills*/}
-                            <div className="level">
+                            <div className="level skills-section animated fadeIn">
                                 <div className="cv-section">
                                     <div className="cv-section-title">
                                             <span className="icon cv-section-subtitle-icon">

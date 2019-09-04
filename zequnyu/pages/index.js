@@ -1,6 +1,7 @@
 import Projects from "../components/Projects";
 
 import 'bulma/css/bulma.min.css'
+import 'animate.css/animate.min.css'
 import '../styles/Index.css'
 
 
@@ -8,7 +9,7 @@ function Index() {
     return (
         <div>
             <div className="section">
-                <div className="container level">
+                <div className="container level info animated fadeIn">
                     <div className="level-left">
                         <div className="level-item">
                             <figure className="image is-128x128">

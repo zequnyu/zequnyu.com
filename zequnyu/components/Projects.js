@@ -1,6 +1,7 @@
 import React from 'react';
 
 import 'bulma/css/bulma.min.css'
+import 'animate.css/animate.min.css'
 import '../styles/Projects.css'
 
 
@@ -12,7 +13,7 @@ function Projects(props) {
                     <div className="column wide-column">
                         <a href="https://github.com/rlworkgroup/garage" target="_blank"
                            rel="noopener noreferrer">
-                            <div className="box box1">
+                            <div className="box box1 animated fadeIn">
                                 <span className="box-title">
                                     garage
                                 </span>
@@ -25,7 +26,7 @@ function Projects(props) {
                     <div className="column is-3 long-column">
                         <a href="https://github.com/zequnyu/TravelDashboard" target="_blank"
                            rel="noopener noreferrer">
-                            <div className="box box2">
+                            <div className="box box2 animated fadeIn">
                                 <span className="box-title">
                                     Travel Dashboard
                                 </span>
@@ -38,7 +39,7 @@ function Projects(props) {
                     <div className="column is-3 long-column">
                         <a href="https://github.com/zequnyu/Diamond-Hunter" target="_blank"
                            rel="noopener noreferrer">
-                            <div className="box box3">
+                            <div className="box box3 animated fadeIn">
                                 <span className="box-title">
                                     Diamond Hunter
                                 </span>
@@ -53,7 +54,7 @@ function Projects(props) {
                     <div className="column is-3 long-column" id="fill-up-margin">
                         <a href="https://github.com/zequnyu/ugthesis" target="_blank"
                            rel="noopener noreferrer">
-                            <div className="box box4">
+                            <div className="box box4 animated fadeIn">
                                 <span className="box-title">
                                     UG dissertation
                                 </span>
@@ -66,7 +67,7 @@ function Projects(props) {
                     <div className="column is-3 long-column" id="fill-up-margin">
                         <a href="https://github.com/zequnyu/zequnyu.com" target="_blank"
                            rel="noopener noreferrer">
-                            <div className="box box5">
+                            <div className="box box5 animated fadeIn">
                                 <span className="box-title">
                                     zequnyu.com
                                 </span>
@@ -79,7 +80,7 @@ function Projects(props) {
                     <div className="column is-6 wide-column">
                         <a href="https://github.com/zequnyu/urank" target="_blank"
                            rel="noopener noreferrer">
-                            <div className="box box6">
+                            <div className="box box6 animated fadeIn">
                                 <span className="box-title">
                                     uRank
                                 </span>

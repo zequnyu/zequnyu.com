@@ -53,6 +53,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.box1, .box2, .box3 {
+    animation-delay: .3s;
+}
+
+.box4, .box5, .box6 {
+    animation-delay: .6s;
+}
+
 .box1 {
     background: url('/static/garage.gif') no-repeat;
     background-size: 100%;
