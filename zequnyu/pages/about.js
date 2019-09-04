@@ -322,14 +322,20 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Collected and cleaned 5 years QS/Times/ARWU/USNews ranking
-                                                data by Python Scrapy, visualised in React website
+                                                Collected and performed 5 years QS/Times/ARWU/USNews
+                                                ranking data using Python Scrapy
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Experienced JavaScript ES6, Next.js, create-react-app,
-                                                styled-components, Bulma and Chart.js
+                                                Built React website for data visualization, and deployed
+                                                with Netlify continuous integration
                                             </div>
+                                            <div className="cv-section-content-record-main">
+                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
+                                                Experienced JavaScript ES6, create-react-app, Next.js,
+                                                Bulma, styled-components and Chart.js
+                                            </div>
+
                                         </div>
                                         {/*Project 2*/}
                                         <div className="cv-section-content-record">
