@@ -77,11 +77,12 @@ class Navbar extends React.Component {
                                         <FontAwesomeIcon icon={faEnvelopeSquare} />
                                     </span>
                                 </a>
-                                {/*<a className="button is-white" href="https://www.linkedin.com/in/anthony-yu-015266145/">*/}
-                                {/*    <span className="icon">*/}
-                                {/*        <FontAwesomeIcon icon={faLinkedin} />*/}
-                                {/*    </span>*/}
-                                {/*</a>*/}
+                                <a className="button is-white" href="https://www.linkedin.com/in/zequnyu"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <span className="icon">
+                                        <FontAwesomeIcon icon={faLinkedin} />
+                                    </span>
+                                </a>
                             </span>
                         </div>
                     </div>
