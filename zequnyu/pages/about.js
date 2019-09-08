@@ -116,7 +116,7 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Advanced courses: Haskell, Machine Learning
+                                                Advanced courses: Functional Programming (Haskell), Machine Learning
                                             </div>
                                         </div>
                                     </div>
@@ -168,7 +168,8 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Contribute to continuous integration test and peer code review
+                                                Contribute to Travis CI test (improved codebase coverage
+                                                by 2%) and peer code review (reviewed 10+ Pull Request)
                                             </div>
                                         </div>
                                         {/*Work Experience 2*/}
@@ -185,36 +186,32 @@ function About() {
                                             </div>
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
-                                                <span className="tag" id="python">Python</span>&nbsp;
                                                 <span className="tag" id="javascript">Javascript</span>&nbsp;
                                                 <span className="tag" id="react">React</span>&nbsp;
-                                                <span className="tag" id="mongodb">MongoDB</span>&nbsp;
+                                                <span className="tag" id="python">Python</span>&nbsp;
+                                                <span className="tag" id="flask">Flask</span>&nbsp;
+                                                <span className="tag" id="mongodb">MongoDB</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 June 2018 - November 2018
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Collected and performed 400,000+ graduate application data records
-                                                using Python Scrapy, Pandas and MongoDB
-                                            </div>
-                                            <div className="cv-section-content-record-main">
-                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Built company website
-                                                (<a href="https://worthnote.netlify.com"
-                                                                          target="_blank"
-                                                                          rel="noopener noreferrer">mirror</a>)
-                                                by Javascript and React
-                                            </div>
-                                            <div className="cv-section-content-record-main">
-                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
-                                                Developed and maintained GUI analysis tool for data cleaning
-                                                using PyQt5
+                                                Refactored company website (<a href="https://worthnote.netlify.com"
+                                                                               target="_blank"
+                                                                               rel="noopener noreferrer">mirror</a>)
+                                                using Javascript and React (Reduced loading time by 50%)
                                             </div>
                                             <div className="cv-section-content-record-main">
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
                                                 Experienced hosting back-end server (REST API) using Flask,
                                                 Gunicorn and Nginx
+                                            </div>
+
+                                            <div className="cv-section-content-record-main">
+                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
+                                                Collected and performed 400,000+ graduate application data records
+                                                using Python Scrapy, Pandas and MongoDB
                                             </div>
                                         </div>
                                         {/*Work Experience 3*/}
@@ -480,7 +477,6 @@ function About() {
                                             <div className="cv-section-content-record-main" id="left-align">
                                                 <span className="tag" id="python">Python</span><br />
                                                 <span className="tag" id="javascript">Javascript</span><br />
-                                                <span className="tag" id="react">React</span><br />
                                                 <span className="tag" id="java">Java</span><br />
                                                 <span className="tag" id="cpp">C++</span><br />
                                                 <span className="tag" id="swift">Swift</span><br />
@@ -493,11 +489,27 @@ function About() {
                                         </div>
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title" id="text-bold">
+                                                Frameworks
+                                            </div>
+                                            <div className="cv-section-content-record-main" id="left-align">
+                                                <span className="tag" id="react">React</span><br />
+                                                <span className="tag" id="flask">Flask</span><br />
+                                                Scrapy <br />
+                                                Pandas <br />
+                                                PyQt5 <br />
+                                                Next.js <br />
+                                                Bulma <br />
+                                                Caffe <br />
+                                            </div>
+                                        </div>
+                                        <div className="cv-section-content-record">
+                                            <div className="cv-section-content-record-title" id="text-bold">
                                                 Tools
                                             </div>
                                             <div className="cv-section-content-record-main" id="left-align">
                                                 Git <br />
-                                                Xcode <br />
+                                                Travis CI <br />
+                                                Netlify <br />
                                                 LaTeX <br />
                                                 Vim <br />
                                                 Markdown <br />
