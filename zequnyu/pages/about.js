@@ -158,7 +158,7 @@ function About() {
                                                 Maintain the open-sourced reinforcement learning project&nbsp;
                                                 <a href="https://github.com/rlworkgroup/garage" target="_blank"
                                                    rel="noopener noreferrer" id="text-bold">garage</a>,
-                                                with emphasis on system design and implementation (20+ commits
+                                                with emphasis on system and API design (20+ commits
                                                 to master branch, 10,000+ lines change)
                                             </div>
                                             <div className="cv-section-content-record-main">
@@ -188,6 +188,7 @@ function About() {
                                                  id="left-align">
                                                 <span className="tag" id="javascript">Javascript</span>&nbsp;
                                                 <span className="tag" id="react">React</span>&nbsp;
+                                                <span className="tag" id="htmlcss">HTML / CSS</span>&nbsp;
                                                 <span className="tag" id="python">Python</span>&nbsp;
                                                 <span className="tag" id="flask">Flask</span>&nbsp;
                                                 <span className="tag" id="mongodb">MongoDB</span>
@@ -217,7 +218,7 @@ function About() {
                                         {/*Work Experience 3*/}
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title">
-                                                Research + SDE intern,&nbsp;
+                                                SDE + Research intern,&nbsp;
                                                 <span id="text-bold">Chinese Academy of Sciences&nbsp;</span>
                                                 <span id="text-shrink">
                                                    <FontAwesomeIcon
@@ -253,7 +254,7 @@ function About() {
                                         {/*Work Experience 4*/}
                                         <div className="cv-section-content-record" id="cv-section-content-record-last">
                                             <div className="cv-section-content-record-title">
-                                                SDE intern,&nbsp;
+                                                SDE + Test intern,&nbsp;
                                                 <span id="text-bold">Global Tone Communication
                                                     Tech Co., Ltd.&nbsp;</span>
                                                 <span id="text-shrink">
@@ -266,6 +267,7 @@ function About() {
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
                                                 <span className="tag" id="python">Python</span>&nbsp;
+                                                <span className="tag" id="java">Java</span>&nbsp;
                                                 <span className="tag" id="htmlcss">HTML / CSS</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
@@ -280,6 +282,11 @@ function About() {
                                                 <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
                                                 Experienced web crawling libraries: beautifulsoup4,
                                                 requests and selenium
+                                            </div>
+                                            <div className="cv-section-content-record-main">
+                                                <FontAwesomeIcon icon={faCircle} id="icon-interpunct" />
+                                                Responsible for performance and integration test of
+                                                translation API using JUnit in Java
                                             </div>
                                         </div>
                                     </div>
@@ -312,6 +319,7 @@ function About() {
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
                                                 <span className="tag" id="javascript">Javascript</span>&nbsp;
+                                                <span className="tag" id="htmlcss">HTML / CSS</span>&nbsp;
                                                 <span className="tag" id="react">React</span>&nbsp;
                                                 <span className="tag" id="python">Python</span>&nbsp;
                                             </div>
