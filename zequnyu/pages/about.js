@@ -505,6 +505,8 @@ function About() {
                                                 Scrapy <br />
                                                 Pandas <br />
                                                 PyQt5 <br />
+                                                Node.js <br />
+                                                Express <br />
                                                 Next.js <br />
                                                 Bulma <br />
                                                 Caffe <br />
