@@ -5,8 +5,9 @@ import 'bulma/css/bulma.min.css'
 import '../styles/Navbar.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faEnvelopeSquare, faHome, faUserTie} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelopeSquare, faFilePdf, faHome, faUserTie} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -60,6 +61,15 @@ class Navbar extends React.Component {
                                     id="nav-button navbar-center-item"
                                 >
                                     <FontAwesomeIcon icon={faUserTie} id="narbar-icon" /> about
+                                </span>
+                            </Link>
+                            <Link href={`/static/Zequnyu.pdf`}>
+                                <span
+                                    name="resume"
+                                    className="button is-white"
+                                    id="nav-button navbar-center-item"
+                                >
+                                    <FontAwesomeIcon icon={faFilePdf} id="narbar-icon" /> resume
                                 </span>
                             </Link>
                         </div>
