@@ -15,7 +15,6 @@
 
 .info-text-mid {
     font-family: 'Open Sans', sans-serif;
-
     display: flex;
     align-items: center;
 }
@@ -29,7 +28,6 @@
 
 .info-text-down {
     font-family: 'Open Sans', sans-serif;
-
     display: flex;
     align-items: center;
 }
@@ -38,6 +36,21 @@
     margin-left: 10px;
     display: inline-block;
     height: 60px;
+    width: auto;
+}
+
+.info-text-update {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-text-update-citrix {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 30px;
     width: auto;
 }
 

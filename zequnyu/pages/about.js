@@ -55,7 +55,7 @@ function About() {
                                     <div className="cv-section-content">
                                         <div className="cv-section-content-record-title">
                                             I'm actively looking for <span id="text-bold">
-                                            Software Engineering Intern</span> (Summer 2020). <br />
+                                            Software Engineering Intern</span> (fall 2020). <br />
                                             Please download my resume <a href="/static/ZequnYu.pdf">here</a>.
                                         </div>
                                     </div>

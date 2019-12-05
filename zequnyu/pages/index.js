@@ -33,6 +33,12 @@ function Index() {
                                         <img className="info-text-down-resl" src='/static/resl.png' alt="RESL Logo" />
                                     </span>
                                 </div>
+                                <div className="info-text-update">
+                                    In summer 2020, I'll be doing internship at Citrix (Santa Clara, CA)
+                                    <span>
+                                        <img className="info-text-update-citrix" src='/static/citrix.png' alt="Citrix Logo" />
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
