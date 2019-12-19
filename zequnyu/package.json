@@ -13,20 +13,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.20",
-    "@fortawesome/free-brands-svg-icons": "^5.10.0",
-    "@fortawesome/free-solid-svg-icons": "^5.10.0",
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@zeit/next-css": "^1.0.1",
     "animate.css": "^3.7.2",
     "bulma": "^0.7.5",
-    "next": "^9.0.0",
+    "next": "^9.1.6",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint": "^6.7.2",
+    "eslint-plugin-react": "^7.17.0"
   }
 }

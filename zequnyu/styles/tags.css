@@ -1,61 +1,108 @@
 .tag {
     margin-bottom: 5px;
+    color: white !important;
 }
 
 #python {
-    color: white;
-    background-color: #4ECDC4;
+    background-color: #7c80c1;
 }
 
 #javascript {
-    color: white;
-    background-color: #d17d38;
+    background-color: #43c7d7;
 }
 
 #react {
-    background-color: #c8dde4;
+    background-color: #62da73;
 }
 
 #flask {
-    color: white;
-    background-color: #04131c;
+    background-color: #49073c;
 }
 
 #haskell {
-    color: white;
-    background-color: #7d7480;
+    background-color: #dd2163;
 }
 
 #cpp {
-    color: white;
-    background-color: #1A535C;
+    background-color: #f69d35;
 }
 
 #htmlcss {
-    color: white;
-    background-color: #e3919f;
+    background-color: #e2548d;
 }
 
 #swift {
-    color: white;
-    background-color: #8f3b27;
+    background-color: #86c8fd;
 }
 
 #mongodb {
-    background-color: #FFE66D;
+    background-color: #ff6949;
 }
 
 #matlab {
-    color: white;
-    background-color: #98b754;
+    background-color: #1d437b;
 }
 
 #java {
-    color: white;
-    background-color: #f56138;
+    background-color: #7740a2;
 }
 
 #mysql {
-    color: white;
-    background-color: #3f5d92;
+    background-color: #2388d9;
+}
+
+#scrapy {
+    background-color: #42bab0;
+}
+
+#pandas {
+    background-color: #af6480;
+}
+
+#pyqt5 {
+    background-color: #f0b618;
+}
+
+#nodejs {
+    background-color: #ef2840;
+}
+
+#express {
+    background-color: #0644a0;
+}
+
+#nextjs {
+    background-color: #172b4d;
+}
+
+#bulma {
+    background-color: #ff1d17;
+}
+
+#caffe {
+    background-color: #ffc52b;
+}
+
+#git {
+    background-color: #f5365c;
+}
+
+#latex {
+    background-color: #11cdef;
+}
+
+#vim {
+    background-color: #2dce89;
+}
+
+#markdown {
+    background-color: #5e72e4;
+}
+
+#prezi {
+    background-color: #fb6340;
+}
+
+#pixelmator {
+    background-color: #07a3b2;
 }

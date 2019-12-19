@@ -14,6 +14,7 @@ import {
     faMapMarkerAlt,
     faUser
 } from "@fortawesome/free-solid-svg-icons";
+import {faDownload} from "@fortawesome/free-solid-svg-icons/faDownload";
 
 
 function About() {
@@ -54,9 +55,14 @@ function About() {
                                     </div>
                                     <div className="cv-section-content">
                                         <div className="cv-section-content-record-title">
-                                            I'm actively looking for <span id="text-bold">
-                                            Software Engineering Intern</span> (fall 2020). <br />
-                                            Please download my resume <a href="/static/ZequnYu.pdf">here</a>.
+                                            I'm looking for <span id="text-bold">
+                                            Software Engineering Intern</span> (Fall 2020). <br /><br />
+                                            <a className="button is-light" href="/static/ZequnYu.pdf">
+                                                <span>resume</span>
+                                                <span className="icon">
+                                                    <FontAwesomeIcon icon={faDownload} />
+                                                </span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -134,6 +140,27 @@ function About() {
                                         </span>
                                     </div>
                                     <div className="cv-section-content">
+
+
+                                        {/*Work Experience 1*/}
+                                        <div className="cv-section-content-record">
+                                            <div className="cv-section-content-record-title">
+                                                Incoming SDE intern,&nbsp;
+                                                <span id="text-bold">Citrix Systems, Inc. &nbsp;</span>
+                                                <span id="text-shrink">
+                                                   <FontAwesomeIcon
+                                                       icon={faMapMarkerAlt}
+                                                       id="icon-location"
+                                                   /> Santa Clara
+                                                </span>
+                                            </div>
+                                            <div className="cv-section-content-record-time">
+                                                May 2020 - August 2020
+                                            </div>
+                                        </div>
+
+
+
                                         {/*Work Experience 1*/}
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title">
@@ -267,8 +294,8 @@ function About() {
                                             <div className="cv-section-content-record-main"
                                                  id="left-align">
                                                 <span className="tag" id="python">Python</span>&nbsp;
-                                                <span className="tag" id="java">Java</span>&nbsp;
-                                                <span className="tag" id="htmlcss">HTML / CSS</span>
+                                                <span className="tag" id="htmlcss">HTML / CSS</span>&nbsp;
+                                                <span className="tag" id="java">Java</span>
                                             </div>
                                             <div className="cv-section-content-record-time">
                                                 June 2016 - September 2016
@@ -502,14 +529,14 @@ function About() {
                                             <div className="cv-section-content-record-main" id="left-align">
                                                 <span className="tag" id="react">React</span><br />
                                                 <span className="tag" id="flask">Flask</span><br />
-                                                Scrapy <br />
-                                                Pandas <br />
-                                                PyQt5 <br />
-                                                Node.js <br />
-                                                Express <br />
-                                                Next.js <br />
-                                                Bulma <br />
-                                                Caffe <br />
+                                                <span className="tag" id="scrapy">Scrapy</span><br />
+                                                <span className="tag" id="pandas">Pandas</span><br />
+                                                <span className="tag" id="pyqt5">PyQt5</span><br />
+                                                <span className="tag" id="nodejs">Node.js</span><br />
+                                                <span className="tag" id="express">Express</span><br />
+                                                <span className="tag" id="nextjs">Next.js</span><br />
+                                                <span className="tag" id="bulma">Bulma</span><br />
+                                                <span className="tag" id="caffe">Caffe</span><br />
                                             </div>
                                         </div>
                                         <div className="cv-section-content-record">
@@ -517,14 +544,12 @@ function About() {
                                                 Tools
                                             </div>
                                             <div className="cv-section-content-record-main" id="left-align">
-                                                Git <br />
-                                                Travis CI <br />
-                                                Netlify <br />
-                                                LaTeX <br />
-                                                Vim <br />
-                                                Markdown <br />
-                                                Prezi <br />
-                                                Pixelmator
+                                                <span className="tag" id="git">Git</span><br />
+                                                <span className="tag" id="latex">LaTeX</span><br />
+                                                <span className="tag" id="vim">Vim</span><br />
+                                                <span className="tag" id="markdown">Markdown</span><br />
+                                                <span className="tag" id="prezi">Prezi</span><br />
+                                                <span className="tag" id="pixelmator">Pixelmator</span><br />
                                             </div>
                                         </div>
                                     </div>

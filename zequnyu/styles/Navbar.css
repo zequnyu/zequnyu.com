@@ -1,3 +1,7 @@
+.button {
+    transition: all linear 0.2s;
+}
+
 #logo {
     height: 100%;
 }
