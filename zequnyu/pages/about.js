@@ -29,7 +29,7 @@ function About() {
                                 <div className="level-left">
                                     <div className="level-item">
                                         <figure className="image is-64x64">
-                                            <img className="is-rounded" src="/static/avatar3.png"  alt="avatar" />
+                                            <img className="is-rounded" src="/static/avatar2.png"  alt="avatar" />
                                         </figure>
                                     </div>
                                     <div className="level-item cv-title-text">
