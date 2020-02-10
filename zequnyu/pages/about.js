@@ -203,7 +203,7 @@ function About() {
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title">
                                                 Full stack software engineer,&nbsp;
-                                                <span id="text-bold">WorthNote Co., Ltd.&nbsp;</span>
+                                                <span id="text-bold">WorthNote&nbsp;</span>
                                                 <span id="text-shrink">
                                                    <FontAwesomeIcon
                                                        icon={faMapMarkerAlt}
@@ -283,7 +283,7 @@ function About() {
                                             <div className="cv-section-content-record-title">
                                                 SDE + Test intern,&nbsp;
                                                 <span id="text-bold">Global Tone Communication
-                                                    Tech Co., Ltd.&nbsp;</span>
+                                                    Tech&nbsp;</span>
                                                 <span id="text-shrink">
                                                    <FontAwesomeIcon
                                                        icon={faMapMarkerAlt}
