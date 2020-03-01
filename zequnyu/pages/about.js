@@ -27,17 +27,17 @@ function About() {
                             {/*Title*/}
                             <div className="level cv-title animated fadeIn">
                                 <div className="level-left">
-                                    <div className="level-item">
-                                        <figure className="image is-64x64">
-                                            <img className="is-rounded" src="/static/avatar2.png"  alt="avatar" />
-                                        </figure>
-                                    </div>
+                                    {/*<div className="level-item">*/}
+                                    {/*    <figure className="image is-64x64">*/}
+                                    {/*        <img className="is-rounded" src="/static/avatar2.png"  alt="avatar" />*/}
+                                    {/*    </figure>*/}
+                                    {/*</div>*/}
                                     <div className="level-item cv-title-text">
                                         <div className="cv-title-text-up">
                                             Zequn Yu
                                         </div>
                                         <div className="cv-title-text-down">
-                                            MSc Student at USC and RESL lab
+                                            MSc CS Student at USC & RESL lab | Incoming intern at Citrix
                                         </div>
                                     </div>
                                 </div>
@@ -146,7 +146,7 @@ function About() {
                                         <div className="cv-section-content-record">
                                             <div className="cv-section-content-record-title">
                                                 Incoming SDE intern,&nbsp;
-                                                <span id="text-bold">Citrix Systems, Inc. &nbsp;</span>
+                                                <span id="text-bold">Citrix Systems&nbsp;</span>
                                                 <span id="text-shrink">
                                                    <FontAwesomeIcon
                                                        icon={faMapMarkerAlt}
