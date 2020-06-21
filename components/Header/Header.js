@@ -10,10 +10,11 @@ import {
 import { FiMenu } from "react-icons/fi";
 import MenuDrawer from "./MenuDrawer";
 import MenuButton from "./MenuButton";
+import LoadingModal from "./LoadingModal";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <Box position="fixed" width="100%">
@@ -37,14 +38,8 @@ const Header = () => {
 
         <Box width={{ base: "50px", md: "300px" }} marginRight="50px">
           <Flex justify="space-between">
-            <Box width="50px">
-              <IconButton
-                aria-label="Mode"
-                icon="moon"
-                variant="ghost"
-                _focus={{ outline: 0 }}
-                onClick={toggleColorMode}
-              />
+            <Box>
+              <LoadingModal />
             </Box>
             <Box display={{ base: "none", md: "block" }}>
               <Flex
