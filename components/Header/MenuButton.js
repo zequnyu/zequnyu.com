@@ -11,6 +11,7 @@ const MenuButton = ({ mode, url, text }) => (
     size={{ base: "lg", md: "md" }}
     color={mode === "light" ? "gray.800" : "white"}
     _focus={{ outline: 0 }}
+    // width={{ base: "80px", md: "120px" }}
   >
     <Text padding={{ base: "20px", md: 0 }} display="block">
       {text}

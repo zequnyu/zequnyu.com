@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import {
   Box,
   Flex,
-  IconButton,
   Drawer,
   DrawerOverlay,
   DrawerContent,
@@ -14,7 +13,7 @@ import {
 import MenuButton from "./MenuButton";
 
 const MenuDrawer = ({ isOpen, closeMenu }) => {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <Drawer
@@ -39,13 +38,6 @@ const MenuDrawer = ({ isOpen, closeMenu }) => {
               align="center"
               paddingBottom="100px"
             >
-              <IconButton
-                aria-label="Mode"
-                icon="moon"
-                variant="ghost"
-                _focus={{ outline: 0 }}
-                onClick={toggleColorMode}
-              />
               <MenuButton mode={colorMode} url="/" text="About" />
               <MenuButton mode={colorMode} url="/" text="Blog" />
               <MenuButton mode={colorMode} url="/" text="Resume" />

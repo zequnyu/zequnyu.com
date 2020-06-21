@@ -35,37 +35,44 @@ const Header = () => {
           </Link>
         </Flex>
 
-        <Box
-          display={{ base: "none", md: "block" }}
-          width="300px"
-          marginRight="50px"
-        >
-          <Flex direction="row" justify="space-between">
-            <MenuButton mode={colorMode} url="/" text="About" />
-            <MenuButton mode={colorMode} url="/" text="Blog" />
-            <MenuButton mode={colorMode} url="/" text="Resume" />
-            <IconButton
-              aria-label="Mode"
-              icon="moon"
-              variant="ghost"
-              _focus={{ outline: 0 }}
-              onClick={toggleColorMode}
-            />
+        <Box width={{ base: "50px", md: "300px" }} marginRight="50px">
+          <Flex justify="space-between">
+            <Box width="50px">
+              <IconButton
+                aria-label="Mode"
+                icon="moon"
+                variant="ghost"
+                _focus={{ outline: 0 }}
+                onClick={toggleColorMode}
+              />
+            </Box>
+            <Box display={{ base: "none", md: "block" }}>
+              <Flex
+                height="100%"
+                width="250px"
+                direction="row"
+                justify="space-around"
+              >
+                <MenuButton mode={colorMode} url="/" text="About" />
+                <MenuButton mode={colorMode} url="/" text="Blog" />
+                <MenuButton mode={colorMode} url="/" text="Resume" />
+              </Flex>
+            </Box>
+            <Box>
+              <IconButton
+                aria-label="Menu"
+                icon={FiMenu}
+                variant="ghost"
+                _focus={{ outline: 0 }}
+                display={{ base: "block", md: "none" }}
+                fontSize="24px"
+                onClick={() => {
+                  setShowMenu(!showMenu);
+                }}
+              />
+            </Box>
           </Flex>
         </Box>
-
-        <IconButton
-          aria-label="Menu"
-          icon={FiMenu}
-          variant="ghost"
-          _focus={{ outline: 0 }}
-          display={{ base: "block", md: "none" }}
-          fontSize="24px"
-          marginRight="0"
-          onClick={() => {
-            setShowMenu(!showMenu);
-          }}
-        />
         <MenuDrawer isOpen={showMenu} closeMenu={setShowMenu} />
       </Flex>
     </Box>
