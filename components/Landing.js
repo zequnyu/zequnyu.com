@@ -8,7 +8,9 @@ import {
   useColorMode,
 } from "@chakra-ui/core";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiFileText } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
+import LineText from "./LineText";
 
 const Landing = () => {
   const { colorMode } = useColorMode();
@@ -16,13 +18,13 @@ const Landing = () => {
   return (
     <Box
       width="100%"
-      height="80vh"
-      backgroundColor={colorMode === "light" ? "white" : "gray.800"}
+      height={{ base: "480px", md: "360px" }}
+      backgroundColor={colorMode === "light" ? "gray.100" : "gray.800"}
     >
       <Flex
         maxWidth="1000px"
         margin="0 auto"
-        paddingTop="150px"
+        paddingTop="30px"
         direction={{ base: "column-reverse", md: "row" }}
         justify="space-between"
       >
@@ -34,27 +36,34 @@ const Landing = () => {
             width="250px"
             direction="column"
             justify="center"
-            textAlign={{ base: "center", md: "left" }}
+            textAlign="center"
           >
-            <Text
+            <LineText
               fontSize="4xl"
               fontWeight="bold"
               color={colorMode === "light" ? "gray.800" : "white"}
+              heading
             >
               Zequn Yu
-            </Text>
+            </LineText>
             <Text color={colorMode === "light" ? "gray.500" : "gray.400"}>
-              MSc Computer Science @ University of Southern California
+              MSc Computer Science @ USC
             </Text>
-            <Flex
-              marginTop="5px"
-              marginLeft={{ md: "-5px" }}
-              justify={{ base: "center", md: "flex-start" }}
-            >
+            <Flex marginTop="5px" marginLeft={{ md: "-5px" }} justify="center">
+              <IconButton
+                aria-label="Resume"
+                icon={FiFileText}
+                variant={colorMode === "light" ? "solid" : "ghost"}
+                _focus={{ outline: 0 }}
+                fontSize="24px"
+                as="a"
+                target="_blank"
+                href="/ZequnYu.pdf"
+              />
               <IconButton
                 aria-label="LinkedIn"
                 icon={FaLinkedin}
-                variant="ghost"
+                variant={colorMode === "light" ? "solid" : "ghost"}
                 _focus={{ outline: 0 }}
                 fontSize="24px"
                 as="a"
@@ -64,7 +73,7 @@ const Landing = () => {
               <IconButton
                 aria-label="Github"
                 icon={FaGithub}
-                variant="ghost"
+                variant={colorMode === "light" ? "solid" : "ghost"}
                 _focus={{ outline: 0 }}
                 fontSize="24px"
                 as="a"
@@ -74,8 +83,7 @@ const Landing = () => {
               <IconButton
                 aria-label="Email"
                 icon={MdEmail}
-                variant="ghost"
-                _focus={{ outline: 0 }}
+                variant={colorMode === "light" ? "solid" : "ghost"}
                 fontSize="24px"
                 as="a"
                 target="_blank"
@@ -90,7 +98,7 @@ const Landing = () => {
         >
           <Image
             src={colorMode === "light" ? "/main.png" : "/main_dark.png"}
-            alt="My avatar"
+            alt=""
             size={{ base: "240px", md: "300px" }}
           />
         </Flex>

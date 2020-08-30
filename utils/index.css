@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'LeituraNews-Roman1';
+    src: local('LeituraNews-Roman1'), url(/fonts/LeituraNews-Roman1.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'LeituraNews-Roman2';
+    src: local('LeituraNews-Roman2'), url(/fonts/LeituraNews-Roman2.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'LeituraNews-Roman3';
+    src: local('LeituraNews-Roman3'), url(/fonts/LeituraNews-Roman3.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'LeituraNews-Roman4';
+    src: local('LeituraNews-Roman4'), url(/fonts/LeituraNews-Roman4.woff) format('woff');
+}

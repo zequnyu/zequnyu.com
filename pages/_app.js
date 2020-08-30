@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { ThemeProvider, ColorModeProvider, CSSReset } from "@chakra-ui/core";
 import theme from "../utils/theme";
+import "../utils/index.css";
 
 function MyApp({ Component, pageProps }) {
   return (

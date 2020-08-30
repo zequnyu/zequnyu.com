@@ -24,7 +24,11 @@ const Footer = () => {
             fontSize="sm"
             color={colorMode === "light" ? "gray.500" : "gray.400"}
           >
-            © Copyright 2020 - Zequn Yu
+            2020&nbsp;&nbsp;
+            <span role="img" aria-label="">
+              👨‍💻
+            </span>
+            &nbsp;&nbsp;Zequn Yu
           </Text>
         </Box>
       </Flex>

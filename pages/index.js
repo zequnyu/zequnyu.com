@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Header from "../components/Header/Header";
 import Landing from "../components/Landing";
+import AboutMe from "../components/About";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -11,8 +11,9 @@ export default function Home() {
         <title>Zequn Yu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
       <Landing />
+      <AboutMe />
+      {/* <Projects /> */}
       <Footer />
     </div>
   );

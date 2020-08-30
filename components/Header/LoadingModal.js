@@ -31,11 +31,15 @@ const LoadingModal = () => {
   };
 
   return (
-    <Box width="50px">
+    <Box
+      width="50px"
+      style={{ position: "absolute", top: "25px", right: "25px" }}
+    >
       <IconButton
         aria-label="Mode"
         icon="moon"
-        variant="ghost"
+        variant={colorMode === "light" ? "solid" : "ghost"}
+        color={colorMode === "light" ? "gray.800" : "white"}
         _focus={{ outline: 0 }}
         onClick={changeColorMode}
       />
