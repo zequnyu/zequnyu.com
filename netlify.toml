@@ -1,0 +1,4 @@
+[build]
+base = "zequnyu/"
+publish = "out/"
+command = "npm run export"
