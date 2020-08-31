@@ -9,15 +9,15 @@ const AboutMe = () => {
   return (
     <Box
       width="100%"
-      height={{ base: "480px", md: "360px" }}
       marginBottom={{ base: "25px", md: "50px" }}
       backgroundColor={colorMode === "light" ? "white" : "gray.800"}
     >
       <Box
-        maxWidth="600px"
+        maxWidth="650px"
         paddingTop="25px"
         margin="0 auto"
-        style={{ fontFamily: "LeituraNews-Roman2", textAlign: "justify" }}
+        style={{ fontFamily: "LeituraNews-Roman2" }}
+        textAlign={{ base: "start", md: "justify" }}
       >
         <LineText>About</LineText>
         <p style={{ margin: "25px" }}>
@@ -49,7 +49,7 @@ const AboutMe = () => {
           <TextLink href="https://www.nottingham.ac.uk/computerscience/people/natasa.milic-frayling">
             Natasa Milic-Frayling
           </TextLink>
-          . I was also affiliated with the&nbsp;
+          . I was also affiliated with UoN&nbsp;
           <TextLink href="https://www.nottingham.ac.uk/research/groups/mixedrealitylab/">
             Mixed Reality Lab
           </TextLink>
@@ -60,16 +60,16 @@ const AboutMe = () => {
           .
         </p>
         <p style={{ margin: "25px" }}>
-          Previously, I completed software engineer summer internship at&nbsp;
+          Previously, I completed software engineer summer internships at&nbsp;
           <TextLink href="https://www.citrix.com/">Citrix Systems</TextLink>
-          ,&nbsp;
+          &nbsp;(2020),&nbsp;
           <TextLink href="https://worthnote.netlify.app/">WorthNote</TextLink>
-          ,&nbsp;
+          &nbsp;(2018),&nbsp;
           <TextLink href="http://english.cas.cn/">
             Chinese Academy of Sciences
           </TextLink>
-          &nbsp;and&nbsp;
-          <TextLink href="https://www.gtcom.com.cn/en/">GTCOM</TextLink>.
+          &nbsp;(2017) and&nbsp;
+          <TextLink href="https://www.gtcom.com.cn/en/">GTCOM</TextLink> (2016).
         </p>
       </Box>
     </Box>

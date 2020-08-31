@@ -1,7 +1,8 @@
 import React from "react";
-import { css } from "@emotion/core";
 import PropTypes from "prop-types";
 import { Link } from "@chakra-ui/core";
+import { BsCodeSlash } from "react-icons/bs";
+import { RiSlideshow3Line } from "react-icons/ri";
 
 const TextLink = (props) => {
   const { href, children } = props;
@@ -12,12 +13,10 @@ const TextLink = (props) => {
       style={{
         backgroundColor: "#f5e8bb",
       }}
-      css={css({
-        "&:hover": {
-          textDecoration: "none",
-          backgroundColor: "#eeda90 !important",
-        },
-      })}
+      _hover={{
+        textDecoration: "none",
+        backgroundColor: "#eeda90 !important",
+      }}
       _focus={{ outline: 0 }}
     >
       {children}
@@ -32,6 +31,49 @@ TextLink.propTypes = {
 
 TextLink.defaultProps = {
   children: "",
+  href: "",
+};
+
+export const IconTextLink = (props) => {
+  const { iconType, href } = props;
+
+  let icon;
+  const iconStyle = {
+    marginLeft: "25px",
+    marginRight: "10px",
+    display: "inline-block",
+    position: "relative",
+    bottom: "2px",
+  };
+
+  switch (iconType) {
+    case "CODE":
+      icon = <BsCodeSlash style={iconStyle} />;
+      break;
+    case "DEMO":
+      icon = <RiSlideshow3Line style={iconStyle} />;
+      break;
+    default:
+      break;
+  }
+
+  return (
+    <span style={{ fontSize: "90%", fontFamily: "Larsseit" }}>
+      {icon}
+      <TextLink style={{ display: "inline-block" }} href={href}>
+        {iconType}
+      </TextLink>
+    </span>
+  );
+};
+
+IconTextLink.propTypes = {
+  iconType: PropTypes.string,
+  href: PropTypes.string,
+};
+
+IconTextLink.defaultProps = {
+  iconType: "",
   href: "",
 };
 

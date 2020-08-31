@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit'), url(/fonts/Larsseit.woff) format('woff');
+}
+
+@font-face {
     font-family: 'LeituraNews-Roman1';
     src: local('LeituraNews-Roman1'), url(/fonts/LeituraNews-Roman1.woff) format('woff');
 }

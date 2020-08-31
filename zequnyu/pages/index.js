@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Landing from "../components/Landing";
 import AboutMe from "../components/About";
+import Projects from "../components/Project/Projects";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
       <Landing />
       <AboutMe />
-      {/* <Projects /> */}
+      <Projects />
       <Footer />
     </div>
   );
