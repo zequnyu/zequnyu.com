@@ -169,8 +169,8 @@ const Projects = () => {
       >
         <LineText>Projects</LineText>
         {garageProject}
-        {travelDashboardProject}
         {urankProject}
+        {travelDashboardProject}
         {diamondHunterProject}
       </Box>
     </Box>
