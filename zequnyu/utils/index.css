@@ -4,6 +4,26 @@
 }
 
 @font-face {
+    font-family: 'LeituraNews-Italic1';
+    src: local('LeituraNews-Italic1'), url(/fonts/LeituraNews-Italic1.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'LeituraNews-Italic2';
+    src: local('LeituraNews-Italic2'), url(/fonts/LeituraNews-Italic2.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'LeituraNews-Italic3';
+    src: local('LeituraNews-Italic3'), url(/fonts/LeituraNews-Italic3.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'LeituraNews-Italic4';
+    src: local('LeituraNews-Italic4'), url(/fonts/LeituraNews-Italic4.woff) format('woff');
+}
+
+@font-face {
     font-family: 'LeituraNews-Roman1';
     src: local('LeituraNews-Roman1'), url(/fonts/LeituraNews-Roman1.woff) format('woff');
 }

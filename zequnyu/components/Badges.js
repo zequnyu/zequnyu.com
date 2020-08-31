@@ -32,3 +32,9 @@ export const ReactBadge = (
     React
   </Badge>
 );
+
+export const MatlabBadge = (
+  <Badge key="mysql" style={{ ...whiteStyle, backgroundColor: "#1d437b" }}>
+    Matlab
+  </Badge>
+);

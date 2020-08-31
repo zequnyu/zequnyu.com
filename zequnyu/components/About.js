@@ -71,6 +71,11 @@ const AboutMe = () => {
           &nbsp;(2017) and&nbsp;
           <TextLink href="https://www.gtcom.com.cn/en/">GTCOM</TextLink> (2016).
         </p>
+        <p style={{ margin: "25px" }}>
+          I love programming in Python, JavaScript and&nbsp;
+          <TextLink href="https://www.haskell.org/">Haskell</TextLink>, and I
+          set my career goal to become a better full-stack software engineer.
+        </p>
       </Box>
     </Box>
   );
