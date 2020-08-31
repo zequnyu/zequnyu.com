@@ -150,6 +150,50 @@ const diamondHunterProject = (
   />
 );
 
+const zequnyucomProject = (
+  <Project
+    key="zequnyu.com"
+    title="zequnyu.com"
+    badges={[JavaScriptBadge, ReactBadge]}
+    description={
+      <span>
+        This site is built by&nbsp;
+        <TextLink href="https://reactjs.org/docs/hooks-intro.html">
+          React Hooks
+        </TextLink>
+        &nbsp;+&nbsp;
+        <TextLink href="https://nextjs.org/">
+          Next.js
+        </TextLink>
+        &nbsp;+&nbsp;
+        <TextLink href="https://chakra-ui.com/">
+          chakra-ui
+        </TextLink>
+        . Design inspiration is from&nbsp;
+        <TextLink href="https://slim.computer">
+          slim
+        </TextLink>
+        . Previously versions:&nbsp;
+        <TextLink href="https://zequnyu-2019.netlify.app/">
+          2019
+        </TextLink>
+        ,&nbsp;
+        <TextLink href="https://zequnyu-2018.netlify.app/">
+          2018
+        </TextLink>
+        .
+      </span>
+    }
+    links={[
+      <IconTextLink
+        key="CODE"
+        iconType="CODE"
+        href="https://github.com/zequnyu/zequnyu.com"
+      />,
+    ]}
+  />
+);
+
 
 const Projects = () => {
   const { colorMode } = useColorMode();
@@ -169,6 +213,7 @@ const Projects = () => {
       >
         <LineText>Projects</LineText>
         {garageProject}
+        {zequnyucomProject}
         {urankProject}
         {travelDashboardProject}
         {diamondHunterProject}
