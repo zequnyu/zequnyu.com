@@ -123,6 +123,33 @@ const urankProject = (
   />
 );
 
+const diamondHunterProject = (
+  <Project
+    key="Diamond Hunter"
+    title="Diamond Hunter"
+    badges={[JavaBadge]}
+    description={
+      <span>
+        A 2D-RPG game built by&nbsp;
+        <TextLink href="https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm">
+          JavaFx
+        </TextLink>
+        . The user controls our hero to collect all 15 diamonds 
+        to win. To achieve the goal, the player need to find item axe and boat as well. 
+        A map viewer is provided to overview the whole map and items position can be set up 
+        by user themselves.
+      </span>
+    }
+    links={[
+      <IconTextLink
+        key="CODE"
+        iconType="CODE"
+        href="https://github.com/zequnyu/Diamond-Hunter"
+      />,
+    ]}
+  />
+);
+
 
 const Projects = () => {
   const { colorMode } = useColorMode();
@@ -144,6 +171,7 @@ const Projects = () => {
         {garageProject}
         {travelDashboardProject}
         {urankProject}
+        {diamondHunterProject}
       </Box>
     </Box>
   );
