@@ -12,14 +12,6 @@ const customTheme = {
   },
 };
 
-// #javascript {
-//   background-color: #43c7d7;
-// }
-
-// #react {
-//   background-color: #62da73;
-// }
-
 // #flask {
 //   background-color: #49073c;
 // }

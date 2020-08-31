@@ -20,3 +20,15 @@ export const MySQLBadge = (
     MySQL
   </Badge>
 );
+
+export const JavaScriptBadge = (
+  <Badge key="mysql" style={{ ...whiteStyle, backgroundColor: "#43c7d7" }}>
+    JavaScript
+  </Badge>
+);
+
+export const ReactBadge = (
+  <Badge key="mysql" style={{ ...whiteStyle, backgroundColor: "#62da73" }}>
+    React
+  </Badge>
+);

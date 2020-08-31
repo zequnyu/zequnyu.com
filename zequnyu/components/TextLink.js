@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "@chakra-ui/core";
 import { BsCodeSlash } from "react-icons/bs";
+import { FaChrome } from "react-icons/fa";
 import { RiSlideshow3Line } from "react-icons/ri";
 
 const TextLink = (props) => {
@@ -52,6 +53,9 @@ export const IconTextLink = (props) => {
       break;
     case "DEMO":
       icon = <RiSlideshow3Line style={iconStyle} />;
+      break;
+    case "WEBSITE":
+      icon = <FaChrome style={iconStyle} />;
       break;
     default:
       break;

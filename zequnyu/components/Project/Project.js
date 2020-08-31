@@ -12,8 +12,8 @@ const Project = (props) => {
       >
         <Box
           style={{ margin: "0 0 25px" }}
-          minWidth={{ md: "150px" }}
-          maxWidth={{ md: "150px" }}
+          minWidth={{ md: "180px" }}
+          maxWidth={{ md: "180px" }}
         >
           <Flex direction="column" align={{ base: "center", md: "flex-start" }}>
             <Text fontSize="2xl" style={{ fontFamily: "LeituraNews-Roman4" }}>
