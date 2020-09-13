@@ -97,7 +97,7 @@ const Landing = () => {
           justify={{ base: "center", md: "flex-start" }}
         >
           <Image
-            src={colorMode === "light" ? "/main.png" : "/main_dark.png"}
+            src={colorMode === "light" ? "/main_less.png" : "/main_dark.png"}
             alt=""
             size={{ base: "240px", md: "300px" }}
           />

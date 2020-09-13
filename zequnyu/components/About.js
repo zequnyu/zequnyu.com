@@ -13,7 +13,7 @@ const AboutMe = () => {
       backgroundColor={colorMode === "light" ? "white" : "gray.800"}
     >
       <Box
-        maxWidth="650px"
+        maxWidth="750px"
         paddingTop="25px"
         margin="0 auto"
         style={{ fontFamily: "LeituraNews-Roman2" }}
@@ -60,7 +60,7 @@ const AboutMe = () => {
           .
         </p>
         <p style={{ margin: "25px" }}>
-          Previously, I completed software engineer summer internships at&nbsp;
+          I completed software engineer internships at&nbsp;
           <TextLink href="https://www.citrix.com/">Citrix Systems</TextLink>
           &nbsp;(2020),&nbsp;
           <TextLink href="https://worthnote.netlify.app/">WorthNote</TextLink>
