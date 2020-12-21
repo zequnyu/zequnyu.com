@@ -9,7 +9,7 @@ import {
   DrawerCloseButton,
   DrawerBody,
   useColorMode,
-} from "@chakra-ui/core";
+} from "@chakra-ui/react";
 import MenuButton from "./MenuButton";
 
 const MenuDrawer = ({ isOpen, closeMenu }) => {

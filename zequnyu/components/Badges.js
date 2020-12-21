@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge } from "@chakra-ui/core";
+import { Badge } from "@chakra-ui/react";
 
 const whiteStyle = { color: "white", marginRight: "5px" };
 
@@ -22,19 +22,19 @@ export const MySQLBadge = (
 );
 
 export const JavaScriptBadge = (
-  <Badge key="mysql" style={{ ...whiteStyle, backgroundColor: "#43c7d7" }}>
+  <Badge key="javascript" style={{ ...whiteStyle, backgroundColor: "#43c7d7" }}>
     JavaScript
   </Badge>
 );
 
 export const ReactBadge = (
-  <Badge key="mysql" style={{ ...whiteStyle, backgroundColor: "#62da73" }}>
+  <Badge key="react" style={{ ...whiteStyle, backgroundColor: "#62da73" }}>
     React
   </Badge>
 );
 
 export const MatlabBadge = (
-  <Badge key="mysql" style={{ ...whiteStyle, backgroundColor: "#1d437b" }}>
+  <Badge key="matlab" style={{ ...whiteStyle, backgroundColor: "#1d437b" }}>
     Matlab
   </Badge>
 );

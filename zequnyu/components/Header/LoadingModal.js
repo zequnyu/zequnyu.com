@@ -9,7 +9,7 @@ import {
   ModalBody,
   useColorMode,
   useDisclosure,
-} from "@chakra-ui/core";
+} from "@chakra-ui/react";
 import ClipLoader from "react-spinners/ClipLoader";
 import { motion } from "framer-motion";
 

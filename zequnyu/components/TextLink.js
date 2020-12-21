@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "@chakra-ui/core";
+import { Link } from "@chakra-ui/react";
 import { BsCodeSlash } from "react-icons/bs";
 import { FaChrome } from "react-icons/fa";
 import { FiFileText } from "react-icons/fi";
