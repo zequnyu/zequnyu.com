@@ -6,7 +6,7 @@ import {
   Text,
   IconButton,
   useColorMode,
-} from "@chakra-ui/core";
+} from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiFileText } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
@@ -42,7 +42,7 @@ const Landing = () => {
               fontSize="4xl"
               fontWeight="bold"
               color={colorMode === "light" ? "gray.800" : "white"}
-              heading
+              heading="true"
             >
               Zequn Yu
             </LineText>
@@ -99,7 +99,7 @@ const Landing = () => {
           <Image
             src={colorMode === "light" ? "/main_less.png" : "/main_dark.png"}
             alt=""
-            size={{ base: "240px", md: "300px" }}
+            boxSize={{ base: "240px", md: "300px" }}
           />
         </Flex>
       </Flex>

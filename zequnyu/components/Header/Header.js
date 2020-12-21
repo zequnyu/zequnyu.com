@@ -6,7 +6,7 @@ import {
   Link,
   IconButton,
   useColorMode,
-} from "@chakra-ui/core";
+} from "@chakra-ui/react";
 import { FiMenu } from "react-icons/fi";
 import MenuDrawer from "./MenuDrawer";
 import MenuButton from "./MenuButton";

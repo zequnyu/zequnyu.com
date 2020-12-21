@@ -1,18 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ThemeProvider, ColorModeProvider, CSSReset } from "@chakra-ui/core";
+import { ChakraProvider } from "@chakra-ui/react";
 import theme from "../utils/theme";
 import "../utils/index.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={theme}>
-      <CSSReset />
-      <ColorModeProvider>
-        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-        <Component {...pageProps} />
-      </ColorModeProvider>
-    </ThemeProvider>
+    <ChakraProvider theme={theme}>
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+      <Component {...pageProps} />
+    </ChakraProvider>
   );
 }
 

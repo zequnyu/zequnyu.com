@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Box, Text, Divider, useColorMode } from "@chakra-ui/core";
+import { Flex, Box, Text, Divider, useColorMode } from "@chakra-ui/react";
 
 const Footer = () => {
   const { colorMode } = useColorMode();

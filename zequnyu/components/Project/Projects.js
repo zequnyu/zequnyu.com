@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, useColorMode } from "@chakra-ui/core";
+import { Box, useColorMode } from "@chakra-ui/react";
 import LineText from "../LineText";
 import garageProject from "./garage";
 import uRankProject from "./uRank";

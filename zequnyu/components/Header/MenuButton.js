@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Text, Button } from "@chakra-ui/core";
+import { Text, Button } from "@chakra-ui/react";
 
 const MenuButton = ({ mode, url, text }) => (
   <Button
