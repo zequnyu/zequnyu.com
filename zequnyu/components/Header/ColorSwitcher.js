@@ -10,6 +10,7 @@ import {
   useColorMode,
   useDisclosure,
 } from "@chakra-ui/react";
+import { MoonIcon } from "@chakra-ui/icons";
 import ClipLoader from "react-spinners/ClipLoader";
 import { motion } from "framer-motion";
 
@@ -20,7 +21,7 @@ const variants = {
   visible: { opacity: 0 },
 };
 
-const LoadingModal = () => {
+const ColorSwitcher = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -37,7 +38,7 @@ const LoadingModal = () => {
     >
       <IconButton
         aria-label="Mode"
-        icon="moon"
+        icon={<MoonIcon />}
         variant={colorMode === "light" ? "solid" : "ghost"}
         color={colorMode === "light" ? "gray.800" : "white"}
         _focus={{ outline: 0 }}
@@ -67,4 +68,4 @@ const LoadingModal = () => {
   );
 };
 
-export default LoadingModal;
+export default ColorSwitcher;

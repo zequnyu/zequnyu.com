@@ -2,7 +2,7 @@
 import React from "react";
 import TextLink, { IconTextLink } from "../TextLink";
 import Project from "./Project";
-import { JavaScriptBadge, ReactBadge } from "../Badges";
+import { ReactBadge } from "../Badges";
 
 const zequnyucomDescription = (
   <span>
@@ -30,7 +30,7 @@ const zequnyucomProject = (
   <Project
     key="zequnyu.com"
     title="zequnyu.com"
-    badges={[JavaScriptBadge, ReactBadge]}
+    badges={[ReactBadge]}
     description={zequnyucomDescription}
     links={[
       <IconTextLink

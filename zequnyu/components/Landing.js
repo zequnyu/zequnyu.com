@@ -52,7 +52,7 @@ const Landing = () => {
             <Flex marginTop="5px" marginLeft={{ md: "-5px" }} justify="center">
               <IconButton
                 aria-label="Resume"
-                icon={FiFileText}
+                icon={<FiFileText />}
                 variant={colorMode === "light" ? "solid" : "ghost"}
                 _focus={{ outline: 0 }}
                 fontSize="24px"
@@ -62,7 +62,7 @@ const Landing = () => {
               />
               <IconButton
                 aria-label="LinkedIn"
-                icon={FaLinkedin}
+                icon={<FaLinkedin />}
                 variant={colorMode === "light" ? "solid" : "ghost"}
                 _focus={{ outline: 0 }}
                 fontSize="24px"
@@ -72,7 +72,7 @@ const Landing = () => {
               />
               <IconButton
                 aria-label="Github"
-                icon={FaGithub}
+                icon={<FaGithub />}
                 variant={colorMode === "light" ? "solid" : "ghost"}
                 _focus={{ outline: 0 }}
                 fontSize="24px"
@@ -82,7 +82,7 @@ const Landing = () => {
               />
               <IconButton
                 aria-label="Email"
-                icon={MdEmail}
+                icon={<MdEmail />}
                 variant={colorMode === "light" ? "solid" : "ghost"}
                 fontSize="24px"
                 as="a"

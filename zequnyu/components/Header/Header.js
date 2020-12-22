@@ -10,7 +10,7 @@ import {
 import { FiMenu } from "react-icons/fi";
 import MenuDrawer from "./MenuDrawer";
 import MenuButton from "./MenuButton";
-import LoadingModal from "./LoadingModal";
+import ColorSwitcher from "./ColorSwitcher";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -24,13 +24,13 @@ const Header = () => {
         justify="space-between"
         wrap="wrap"
         padding="1.5rem"
-        zIndex="100"
+        zIndex="1000"
         backgroundColor={colorMode === "light" ? "gray.50" : "gray.900"}
       >
         <Flex align="center" marginLeft={{ base: "0", md: "50px" }}>
           <Link href="/" _hover={{ opacity: 0.5 }}>
             <Image
-              size="48px"
+              boxSize="48px"
               src={colorMode === "light" ? "/logo.png" : "/logo_dark.png"}
             />
           </Link>
@@ -39,7 +39,7 @@ const Header = () => {
         <Box width={{ base: "50px", md: "300px" }} marginRight="50px">
           <Flex justify="space-between">
             <Box>
-              <LoadingModal />
+              <ColorSwitcher />
             </Box>
             <Box display={{ base: "none", md: "block" }}>
               <Flex
@@ -56,7 +56,7 @@ const Header = () => {
             <Box>
               <IconButton
                 aria-label="Menu"
-                icon={FiMenu}
+                icon={<FiMenu />}
                 variant="ghost"
                 _focus={{ outline: 0 }}
                 display={{ base: "block", md: "none" }}
