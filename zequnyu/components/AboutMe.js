@@ -10,11 +10,12 @@ const AboutMe = () => {
     <Box
       width="100%"
       marginBottom={{ base: "25px", md: "50px" }}
-      backgroundColor={colorMode === "light" ? "white" : "gray.800"}
+      backgroundColor={colorMode === "light" ? "white" : "gray.700"}
     >
       <Box
         maxWidth="750px"
         paddingTop="25px"
+        paddingBottom={{ base: "25px", md: "0" }}
         margin="0 auto"
         style={{ fontFamily: "LeituraNews-Roman2" }}
         textAlign={{ base: "start", md: "justify" }}

@@ -8,7 +8,7 @@ const Footer = () => {
     <Box
       width="100%"
       height="20vh"
-      backgroundColor={colorMode === "light" ? "white" : "gray.800"}
+      backgroundColor={colorMode === "light" ? "white" : "gray.700"}
     >
       <Flex
         width="80%"

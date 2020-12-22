@@ -2,7 +2,7 @@
 import React from "react";
 import TextLink, { IconTextLink } from "../TextLink";
 import Project from "./Project";
-import { PythonBadge, JavaScriptBadge, ReactBadge } from "../Badges";
+import { PythonBadge, ReactBadge } from "../Badges";
 
 const uRankDescription = (
   <span>
@@ -32,7 +32,7 @@ const uRankProject = (
   <Project
     key="uRank"
     title="uRank"
-    badges={[PythonBadge, JavaScriptBadge, ReactBadge]}
+    badges={[PythonBadge, ReactBadge]}
     description={uRankDescription}
     links={[
       <IconTextLink

@@ -1,23 +1,26 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "@chakra-ui/react";
+import { Link, useColorMode } from "@chakra-ui/react";
 import { BsCodeSlash } from "react-icons/bs";
 import { FaChrome } from "react-icons/fa";
 import { FiFileText } from "react-icons/fi";
 import { RiSlideshow3Line, RiFilePptLine } from "react-icons/ri";
 
 const TextLink = (props) => {
+  const { colorMode } = useColorMode();
   const { href, children } = props;
   return (
     <Link
       href={href}
       target="_blank"
       style={{
-        backgroundColor: "#f5e8bb",
+        color: colorMode === "light" ? "black" : "white",
+        backgroundColor: colorMode === "light" ? "#f5e8bb" : "#6e2811",
       }}
       _hover={{
         textDecoration: "none",
-        backgroundColor: "#eeda90 !important",
+        backgroundColor:
+          colorMode === "light" ? "#eeda90 !important" : "#9a3918 !important",
       }}
       _focus={{ outline: 0 }}
     >
