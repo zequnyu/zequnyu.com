@@ -32,10 +32,6 @@ const customTheme = {
 //   background-color: #86c8fd;
 // }
 
-// #mongodb {
-//   background-color: #ff6949;
-// }
-
 // #matlab {
 //   background-color: #1d437b;
 // }
