@@ -25,22 +25,24 @@ const ColorSwitcher = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
+  const onSwitchFinish = () => {
+    onClose();
+  };
+
   const changeColorMode = () => {
     toggleColorMode();
     onOpen();
-    setTimeout(onClose, 1000);
+    setTimeout(onSwitchFinish, 1000);
   };
 
   return (
-    <Box
-      width="50px"
-      style={{ position: "absolute", top: "25px", right: "25px" }}
-    >
+    <Box>
       <IconButton
+        style={{ position: "fixed", top: "25px", right: "25px" }}
         aria-label="Mode"
         icon={<MoonIcon />}
-        variant={colorMode === "light" ? "solid" : "ghost"}
-        color={colorMode === "light" ? "gray.800" : "white"}
+        colorScheme="twitter"
+        variant="solid"
         _focus={{ outline: 0 }}
         onClick={changeColorMode}
       />
@@ -50,8 +52,9 @@ const ColorSwitcher = () => {
           initial="hidden"
           animate="visible"
           variants={variants}
-          transition={{ duration: 2 }}
+          transition={{ duration: 1 }}
           backgroundColor={colorMode === "light" ? "white" : "gray.800"}
+          style={{ margin: 0, overflow: "hidden" }}
         >
           <ModalBody>
             <Flex height="100vh" justify="center" align="center">

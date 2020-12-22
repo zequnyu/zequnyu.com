@@ -1,12 +1,15 @@
 import React, { useEffect } from "react";
 import Head from "next/head";
+import { Box, useColorMode } from "@chakra-ui/react";
 import ColorSwitcher from "../components/Header/ColorSwitcher";
 import Landing from "../components/Landing";
-import AboutMe from "../components/About";
+import AboutMe from "../components/AboutMe";
 import Projects from "../components/Project/Projects";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  const { colorMode } = useColorMode();
+
   useEffect(() => {
     // Google Analytics
     window.dataLayer = window.dataLayer || [];
@@ -20,7 +23,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="container">
+    <Box backgroundColor={colorMode === "light" ? "white" : "gray.700"}>
       <Head>
         <title>Zequn Yu</title>
         <link rel="icon" href="/favicon.ico" />
@@ -34,6 +37,6 @@ export default function Home() {
       <AboutMe />
       <Projects />
       <Footer />
-    </div>
+    </Box>
   );
 }
