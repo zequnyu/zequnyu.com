@@ -10,7 +10,7 @@ import {
   useColorMode,
   useDisclosure,
 } from "@chakra-ui/react";
-import { MoonIcon } from "@chakra-ui/icons";
+import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 import ClipLoader from "react-spinners/ClipLoader";
 import { motion } from "framer-motion";
 
@@ -40,8 +40,13 @@ const ColorSwitcher = () => {
       <IconButton
         style={{ position: "fixed", top: "25px", right: "25px" }}
         aria-label="Mode"
-        icon={<MoonIcon />}
-        colorScheme="twitter"
+        icon={colorMode === "light" ? <SunIcon /> : <MoonIcon />}
+        // colorScheme="twitter"
+        backgroundColor={
+          colorMode === "light"
+            ? "rgba(0, 187, 204, 0.3)"
+            : "rgba(155, 23, 94, 0.3)"
+        }
         variant="solid"
         _focus={{ outline: 0 }}
         onClick={changeColorMode}
