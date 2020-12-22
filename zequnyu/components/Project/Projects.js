@@ -7,6 +7,7 @@ import travelDashboardProject from "./travelDashboard";
 import diamondHunterProject from "./diamondHunter";
 import zequnyucomProject from "./zequnyucom";
 import ugThesisProject from "./ugThesis";
+import nbaProject from "./nba";
 
 const Projects = () => {
   const { colorMode } = useColorMode();
@@ -25,6 +26,7 @@ const Projects = () => {
         style={{ fontFamily: "LeituraNews-Roman2", textAlign: "justify" }}
       >
         <LineText>Projects</LineText>
+        {nbaProject}
         {garageProject}
         {zequnyucomProject}
         {uRankProject}

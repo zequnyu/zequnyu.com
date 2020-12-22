@@ -23,6 +23,7 @@ const ugThesisProject = (
   <Project
     key="UG Thesis"
     title="UG Thesis"
+    subTitle="Mixed Reality Lab"
     badges={[PythonBadge, MatlabBadge]}
     description={ugThesisDescription}
     links={[

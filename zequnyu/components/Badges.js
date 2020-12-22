@@ -38,3 +38,9 @@ export const MatlabBadge = (
     Matlab
   </Badge>
 );
+
+export const MongoDBBadge = (
+  <Badge key="mongodb" style={{ ...whiteStyle, backgroundColor: "#ff6949" }}>
+    MongoDB
+  </Badge>
+);

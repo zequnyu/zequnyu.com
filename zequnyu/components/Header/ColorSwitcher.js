@@ -4,7 +4,6 @@ import {
   Flex,
   IconButton,
   Modal,
-  ModalOverlay,
   ModalContent,
   ModalBody,
   useColorMode,
@@ -32,7 +31,7 @@ const ColorSwitcher = () => {
   const changeColorMode = () => {
     toggleColorMode();
     onOpen();
-    setTimeout(onSwitchFinish, 1000);
+    setTimeout(onSwitchFinish, 1500);
   };
 
   return (
@@ -52,12 +51,11 @@ const ColorSwitcher = () => {
         onClick={changeColorMode}
       />
       <Modal isOpen={isOpen} onClose={onClose} size="full">
-        <ModalOverlay />
         <MotionModalContent
           initial="hidden"
           animate="visible"
           variants={variants}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5 }}
           backgroundColor={colorMode === "light" ? "white" : "gray.800"}
           style={{ margin: 0, overflow: "hidden" }}
         >
