@@ -22,26 +22,31 @@ const AboutMe = () => {
       >
         <LineText>About</LineText>
         <p style={{ margin: "25px" }}>
-          I am a master student at the&nbsp;
+          I am a software engineer at&nbsp;
+          <TextLink href="https://www.amazon.com">Amazon</TextLink>, locating in
+          beautiful Santa Monica.
+        </p>
+        <p style={{ margin: "25px" }}>
+          Prior to joining Amazon, I was a master student at the&nbsp;
           <TextLink href="https://www.usc.edu/">
             University of Southern California
           </TextLink>
-          . In the meantime, I am also a student worker at USC&nbsp;
+          . I was also a student worker at USC&nbsp;
           <TextLink href="https://robotics.usc.edu/resl/">
             Robotic Embedded Systems Lab
           </TextLink>
-          , where I primarily work on an open source project&nbsp;
+          , where I primarily worked on an open source project&nbsp;
           <TextLink href="https://github.com/rlworkgroup/garage">
             garage
           </TextLink>
           .
         </p>
         <p style={{ margin: "25px" }}>
-          Prior to joining USC, I received my Bachelor of Science from the&nbsp;
+          I received my Bachelor of Science degree from the&nbsp;
           <TextLink href="https://www.nottingham.ac.uk/">
             University of Notthingham
           </TextLink>
-          &nbsp;with First Class Honours. At Nottingham, I worked on Travel
+          &nbsp;with First Class Honours. At Nottingham, I worked on the Travel
           Dashboard project for&nbsp;
           <TextLink href="https://atos.net/en-gb/united-kingdom">
             Atos UK
@@ -61,7 +66,7 @@ const AboutMe = () => {
           .
         </p>
         <p style={{ margin: "25px" }}>
-          I completed software engineer internships at&nbsp;
+          In addition, I had relevant experiences at&nbsp;
           <TextLink href="https://www.citrix.com/">Citrix Systems</TextLink>
           &nbsp;(2020),&nbsp;
           <TextLink href="https://worthnote.netlify.app/">WorthNote</TextLink>

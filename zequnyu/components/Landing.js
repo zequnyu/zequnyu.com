@@ -47,7 +47,7 @@ const Landing = () => {
               Zequn Yu
             </LineText>
             <Text color={colorMode === "light" ? "gray.500" : "gray.400"}>
-              MSc Computer Science @ USC
+              Software Engineer
             </Text>
             <Flex marginTop="5px" marginLeft={{ md: "-5px" }} justify="center">
               <IconButton
